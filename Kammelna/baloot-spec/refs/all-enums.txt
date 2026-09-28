@@ -1,0 +1,2888 @@
+enum AchievementDisplayPlace {
+	ACHIEVEMENTS,
+	PROFILE,
+	TROPHY,
+	TITLE,
+	END_GAME,
+	NOTIFICATION,
+	TOURNAMENT,
+	PREDICTION,
+	INFOPOPUP,
+	CLAIMPOPUP
+}
+
+enum AchievementType {
+	Achievement,
+	Title,
+	Trophy
+}
+
+enum ActivationPhase {
+		Awake,
+		Start,
+		Enable,
+		Disable,
+		Destroy
+}
+
+enum ActivationType {
+		Subscription,
+		GoldenCards
+}
+
+enum ActivatorType {
+	GameObject,
+	Particle,
+	AudioClip
+}
+
+enum ActiveMode {
+		Enable,
+		Disable
+}
+
+enum AdAction {
+	Start,
+	Complete,
+	Error,
+	Loaded,
+	Closed,
+	FailedToLoad3Times,
+	Request,
+	Clicked
+}
+
+enum AdPlace {
+	MiniGame,
+	RankedPlay,
+	Testing,
+	Offline
+}
+
+enum AdSDK {
+	Admob,
+	Generic
+}
+
+enum AdType {
+	Rewarded,
+	Interstitial,
+	Banner
+}
+
+enum AiCheatOption {
+	None,
+	WrongEkkah
+}
+
+enum AnimatedRoomElementType {
+	SPINE,
+	SPRITE_SHEET
+}
+
+enum AnimationTransitionType {
+	Duration,
+	Speed
+}
+
+enum AnimationType {
+		AlwaysStartFromZero,
+		Static,
+		TransitionBetweenValues
+}
+
+enum AnimationType {
+		Fade,
+		Scale
+}
+
+enum AppAnnouncementType {
+	GrandGameMode,
+	FlashSale
+}
+
+enum AppPermission {
+	Microphone,
+	Camera
+}
+
+enum ArrayType {
+		Float,
+		Int32,
+		Bool,
+		String,
+		Vector2,
+		Vector3,
+		Quaternion,
+		Color
+}
+
+enum AspectRatio {
+		SD,
+		HD,
+		WIDE
+}
+
+enum Axis {
+		Horizontal,
+		Vertical
+}
+
+enum BalootBiddingOption {
+	Pass,
+	Wala,
+	Sun,
+	ToSun,
+	BeforeSun,
+	Triple,
+	Qahwa,
+	Hokom,
+	HokomClose,
+	Hokom2,
+	Double,
+	Four,
+	Ashkal,
+	ConfirmHokom,
+	HokomOpen,
+	HokomClubs,
+	HokomDiamonds,
+	HokomSpades,
+	HokomHearts,
+	Thany,
+	Waraq,
+	EmptyBid
+}
+
+enum BalootBidingButtonEnum {
+	All = -1,
+	buttonSun = 1,
+	buttonToSun = 2,
+	buttonPass = 4,
+	buttonHokom = 8,
+	buttonAshkal = 16,
+	buttonDouble = 32,
+	buttonHokomOpen = 64
+}
+
+enum BalootCatchButtonEnum {
+	All = -1,
+	wrongSawa = 1,
+	wrongEkka = 2,
+	openCards = 4
+}
+
+enum BalootExtraGameMode {
+		NotDetermined,
+		Double,
+		Triple,
+		Four,
+		Qahwa
+}
+
+enum BalootGameMode {
+		NotDetermined,
+		Sun,
+		Hokom,
+		Ashkal
+}
+
+enum BalootProject {
+	Sira,
+	P50,
+	P100,
+	P400
+}
+
+enum BalootProjectExtra {
+	None,
+	Sira,
+	P50,
+	P100,
+	P400,
+	Ekkah,
+	Baloot
+}
+
+enum BalootSound {
+	AWAL
+}
+
+enum BalootStat {
+		Biddings,
+		BiddingsStrength,
+		WonBiddings,
+		LostBiddings,
+		ProjectsScores,
+		Kaboot,
+		Cheatings,
+		Catchings,
+		PictureWithAce,
+		TensHunter,
+		ReverseKaboot,
+		PreventFourHundred,
+		CheatKaboot,
+		UpsideDownKaboot,
+		LowSunKaboot,
+		KingTrioNoAdvantage,
+		WinWithEnemyHundred,
+		TrumpNoJackNorNine
+}
+
+enum BankPurchaseType {
+	None,
+	SubscriptionSixMonths,
+	SubscriptionOneYear,
+	Coins12000
+}
+
+enum Banks {
+	None,
+	Rajhi,
+	Ahli
+}
+
+enum BannerSize {
+		Normal,
+		Wide
+}
+
+enum BehaviourOption {
+		WaitInitialization,
+		BindToMyUserVariable,
+		LoadMyLastSavedValue
+}
+
+enum BiddingCase {
+		NextBidder,
+		BeforeSun,
+		AnySun,
+		AnyDouble,
+		Double,
+		Triple,
+		Hokom2
+}
+
+enum BiddingStage {
+		Awal,
+		Thany,
+		Doubling,
+		Waraq
+}
+
+enum BiddingState {
+		FirstRound,
+		SecondRound,
+		Finished
+}
+
+enum BiddingState {
+		Pass,
+		AnySun,
+		BeforeSun,
+		Hokom2
+}
+
+enum BlurType {
+		StandardGauss,
+		SgxGauss
+}
+
+enum BombLeaderboardType {
+	LAST_WEEK,
+	OVERALL,
+	LAST_THREE_MONTHS
+}
+
+enum BoundsMode {
+		None,
+		Wrap,
+		PingPong
+}
+
+enum ButtonType {
+		Positive,
+		Negative,
+		Neutral,
+		Purchase
+}
+
+enum ButtonsLayout {
+		Linear,
+		Grid
+}
+
+enum CanvasLayer {
+	MainCanvas,
+	SecondaryCanvas
+}
+
+enum CardGameStages {
+		None,
+		Bidding,
+		Playing,
+		WaitingForEating,
+		InCheatCatch,
+		MoveNextRequired
+}
+
+enum CardStatus {
+	InHand,
+	Prepared,
+	PreparedForClick,
+	Preplay
+}
+
+enum CatchSoundAlbumTrack {
+	SuccessfulCatch,
+	FailCatch,
+	CatchFullDuration,
+	CatchHalfDuration,
+	CardSelected
+}
+
+enum ChallengeAnnouncementState {
+	Requested,
+	Rejected,
+	Accepted,
+	Ended
+}
+
+enum Channel {
+		Master,
+		Gameplay,
+		Notifications,
+		SFX
+}
+
+enum ChatInk {
+	Clean,
+	Admin,
+	Moderator,
+	MonthlyWinner,
+	Bomber,
+	BomberWeeklyTop1,
+	BomberWeeklyTop2,
+	BomberWeeklyTop3
+}
+
+enum ChatPinnedAvatarParticle {
+	Heart,
+	Thanks1,
+	Thanks2,
+	Thanks3
+}
+
+enum CheatingOption {
+	None,
+	Play,
+	ModeWrongSawa,
+	ModeWrongEkka,
+	ModeCut,
+	ModeHokomCut,
+	ModeDouble,
+	ModeProject,
+	ModeUp
+}
+
+enum CheatingPerformance {
+	Focus,
+	DoBetter,
+	CleanMatch,
+	FocussedTeammate,
+	GoodTeammate,
+	DirtyMatch,
+	GoodPlayer,
+	Champion
+}
+
+enum ClanActivityType {
+	Announcement,
+	Vote,
+	Tournament,
+	FriendlyRoom,
+	Gift
+}
+
+enum ClanDeletionSource {
+	OwnerLeftEmpty,
+	SubscriptionArchive
+}
+
+enum ClanFeedScope {
+	Internal,
+	Shared,
+	Featured
+}
+
+enum ClanFeedType {
+	Announcement = 0,
+	MemberJoined = 1,
+	MemberLeft = 2,
+	MemberRankUp = 3,
+	MemberAchievement = 4,
+	VaultSupportRequest = 5,
+	MemberSupportedVault = 6,
+	LiveActivityResult = 7,
+	ClanCreated = 8,
+	ClanReachedMembersMilestone = 9,
+	ClanUpgraded = 10,
+	ClanUpgradedEmblem = 11,
+	SeasonChampion = 12,
+	MemberWonOfficialMonthlyTournament = 13,
+	MemberRankedTopLeaderboard = 14,
+	ClanUpgradedCallToAction = 1000
+}
+
+enum ClanLiveActivityType {
+	PrivateTournament,
+	FriendlyChallenge
+}
+
+enum ClanLogoElementImageType {
+		Main,
+		Mask
+}
+
+enum ClanLogoElementType {
+	Rim,
+	Icon
+}
+
+enum ClanLogoLayer {
+	Rim,
+	Icon
+}
+
+enum ClanMembershipChangeType {
+	Joined = 1,
+	Left,
+	Kicked,
+	Disbanded,
+	RoleChanged,
+	JoinRequested
+}
+
+enum ClanMembershipStatus {
+	Requested,
+	Joined,
+	Banned
+}
+
+enum ClanPendingDirection {
+	Invitation,
+	JoinRequest
+}
+
+enum ClanPermissions {
+	None = 0,
+	ManageClan = 1,
+	ManageVault = 2,
+	ManageMembers = 4,
+	ManageActivities = 8,
+	All = 15
+}
+
+enum ClanSearchSort {
+	All,
+	TopScoring,
+	TopActivityScore,
+	New
+}
+
+enum ClanStatus {
+	Active,
+	Grace,
+	Inactive,
+	Archived,
+	Deleted
+}
+
+enum ClanSubscriptionStatus {
+	Active,
+	Grace,
+	Inactive,
+	Archived,
+	Deleted
+}
+
+enum ClanUserType {
+	Member,
+	Moderator
+}
+
+enum ClanVaultTransactionType {
+	Deposit,
+	SubscriptionRenewal,
+	EmblemUpgrade,
+	PrivateTournamentCreation,
+	PaidAnnouncement,
+	SupportRefund
+}
+
+enum ClanVaultVisualTier {
+	Tier1,
+	Tier2,
+	Tier3
+}
+
+enum ClanXpGainMode {
+	FixedValue,
+	RelativeToRankPoints
+}
+
+enum ClearAnimationMethod {
+	Auto,
+	ImmediateRestore,
+	Destroy
+}
+
+enum ClientCapability {
+	StatusCodesV2 = 1,
+	PushV1 = 2,
+	BackoffV1 = 4,
+	ConfigV1 = 8,
+	StoreSplit = 0x10,
+	Integrity = 0x20
+}
+
+enum ClientOnlyFilterType {
+	AppVersion,
+	Platform,
+	Game,
+	IsEligibleForAppStoreIntroOffer
+}
+
+enum CollisionDirections {
+		Top,
+		TopRight,
+		Right,
+		BottomRight,
+		Bottom,
+		BottomLeft,
+		Left,
+		TopLeft
+}
+
+enum ColorStyle {
+		Green,
+		Yellow,
+		Red,
+		White,
+		Rainbow,
+		None
+}
+
+enum CommentDuration {
+	Ten,
+	Seven,
+	Five,
+	Three
+}
+
+enum ComparisonOperator {
+	Equal,
+	NotEqual,
+	LessThan,
+	GreaterThan,
+	LessThanOrEqual,
+	GreaterThanOrEqual,
+	In,
+	NotIn
+}
+
+enum CompressionAlgorithm {
+		Brotli,
+		GZip
+}
+
+enum ConnectionSpeed {
+	Slow,
+	MediumSlow,
+	Medium,
+	MediumFast,
+	Fast
+}
+
+enum CounterBubbleType {
+	PublicChat,
+	Notifications,
+	PrivateChat,
+	FriendRequest,
+	Prizes,
+	PredictAndWinHistory,
+	OnlineFriends,
+	DeclaredProjects,
+	Tournaments,
+	Store,
+	ClanJoinRequests,
+	ClanChat,
+	OnlineClanMembers
+}
+
+enum CounterType {
+		Likes,
+		Achievements,
+		TournamentPoints
+}
+
+enum CurrentValueStyle {
+		Static,
+		FollowBarTip
+}
+
+enum DateTimeUnit {
+	Years,
+	Months,
+	Days,
+	Hours,
+	Minutes,
+	Seconds
+}
+
+enum Direction {
+		Front,
+		Back,
+		Left,
+		Right,
+		FrontRight,
+		FrontLeft,
+		BackRight,
+		BackLeft
+}
+
+enum Direction {
+		TopToBottom,
+		BottomToTop
+}
+
+enum EmoteSentErrorType {
+		NotEnoughAces,
+		IsNotPlayer,
+		BuyError
+}
+
+enum EnableState {
+	ActiveSelf,
+	ActiveInHierarchy,
+	DisabledSelf,
+	DisabledInHierarchy
+}
+
+enum EqualityOperator {
+	Equal,
+	NotEqual
+}
+
+enum ErrorTypeEnum {
+			NoError,
+			PrizeInvalid,
+			MissingFirstPrize,
+			SecondPrizeBiggerThanFirst,
+			PrizeIsBelowThreshold,
+			NotEnoughAces
+}
+
+enum FTPlayMoreStates {
+	Undetermined = -1,
+	PausePlaying,
+	PlayMore,
+	PlayMoreSameTeammate
+}
+
+enum FillMode {
+		AnchorPosition,
+		SizeDelta,
+		SpriteFill
+}
+
+enum FixMode {
+		MoveDown,
+		ShrinkDown,
+		ExpendDown,
+		MoveUp,
+		ShrinkUp,
+		ExpendUp,
+		FullShrink
+}
+
+enum FlagsOperator {
+	HaveAll,
+	HaveSome,
+	HaveNone
+}
+
+enum Format {
+		DateAndTime,
+		DateOnly,
+		TimeOnly,
+		DateAndTimeAndDayOfWeek
+}
+
+enum Format {
+		HoursMinutesSeconds,
+		HoursMinutes,
+		MinutesSeconds
+}
+
+enum Format {
+		RAW,
+		JPG,
+		PNG,
+		PPM
+}
+
+enum FreezingType {
+	None,
+	Slow,
+	StopsCompletelySuddenly,
+	NoRoomsToJoin,
+	FrequentDisconnection,
+	OtherLagIssues
+}
+
+enum FriendType {
+		All,
+		Friend,
+		Online,
+		SentRequest,
+		ReceivedRequest,
+		Blocked,
+		Offline,
+		OnlineAvailability
+}
+
+enum FriendlyChallengeInviteError {
+	Unknown,
+	DefenderNotOnline,
+	DefenderBusy,
+	ExceededMaxScore,
+	DefenderDeclined
+}
+
+enum FriendlyChallengeResponseError {
+	Unknown,
+	InvalidInvite
+}
+
+enum FriendlyChallengeResult {
+	NotDetermined,
+	ChallengerWon,
+	DefenderWon
+}
+
+enum GameAction {
+	None = -100,
+	StealBurn = -3,
+	Steal = -2,
+	Burn = -1,
+	AshTray = 0,
+	Egal = 1,
+	Farsh = 2,
+	SpecialPlay = 3,
+	MoveEatPathSpecial = 101,
+	PlantSpecial = 102
+}
+
+enum GameCancellationReason {
+	TeamForfeited
+}
+
+enum GameCategory {
+	Common,
+	Baloot,
+	Tarneeb,
+	Jackaroo
+}
+
+enum GameMode {
+		Online = 1,
+		Offline
+}
+
+enum GamePhases {
+		Initializing,
+		LookingForPlayers,
+		Started,
+		Finished
+}
+
+enum GameProblems {
+	None,
+	Freezing,
+	Crashing,
+	GameIssues,
+	ServerLoginIssues
+}
+
+enum GameSoundAlbumTrack {
+	Win_Round = 0,
+	Win_Kaboot = 1,
+	Win_Game = 2,
+	Win_Tournament_LV1 = 3,
+	Win_Tournament_LV2 = 4,
+	Lose_Round = 5,
+	Lose_Kaboot = 6,
+	Lose_Game = 7,
+	Lose_Game_Happy = 8,
+	Stamp_LV1 = 9,
+	Stamp_LV2 = 10,
+	Stamp_LV3 = 11,
+	Stamp_LV4 = 12,
+	Rating_LV1 = 13,
+	Rating_LV2 = 14,
+	Rating_LV3 = 15,
+	Rating_LV4 = 16,
+	Bid_Qahwa = 20,
+	Rank_Up = 30,
+	Rank_Up_Soft = 31,
+	Rank_Down = 32,
+	Rank_Down_Soft = 33,
+	Sawa = 40,
+	YourTurn = 50
+}
+
+enum GameSoundEffect {
+	CARD,
+	CARD_PREPARE,
+	CHAT_PING
+}
+
+enum GameSoundState {
+		AllOn,
+		BackgroundMusicOff,
+		AllOff
+}
+
+enum GameType {
+		Friendly = 1,
+		Ranked = 2,
+		Tournament = 4,
+		FastTrack = 8,
+		Tutorial = 0x10,
+		Replay = 0x20,
+		Challenge = 0x40
+}
+
+enum GameType {
+	Friendly,
+	Ranked,
+	Tournament,
+	FastTrack,
+	Challenge
+}
+
+enum Games {
+	Baloot,
+	Tarneeb,
+	Jackaroo
+}
+
+enum GamesFlag {
+	Baloot = 1,
+	Tarneeb = 2,
+	Jackaroo = 4
+}
+
+enum GenericSoundAlbumTrack {
+	Play_Now,
+	Play_Now_Cards,
+	Error,
+	Gain_Money,
+	Gift_Drop,
+	Successful_Purchase
+}
+
+enum GestureDirection {
+	Left,
+	Right,
+	Up,
+	Down
+}
+
+enum GiftBombType {
+	Currency,
+	Subscription
+}
+
+enum GiftType {
+		Coins,
+		Subscription
+}
+
+enum GooglePlayBillingResponseCode {
+	FeatureNotSupported = -2,
+	ServiceDisconnected = -1,
+	Ok = 0,
+	UserCanceled = 1,
+	ServiceUnavailable = 2,
+	BillingUnavailable = 3,
+	ItemUnavailable = 4,
+	DeveloperError = 5,
+	Error = 6,
+	ItemAlreadyOwned = 7,
+	ItemNotOwned = 8,
+	NetworkError = 12
+}
+
+enum HttpMethod {
+		GET,
+		POST,
+		PUT,
+		DELETE
+}
+
+enum IconType {
+		None,
+		Seats
+}
+
+enum InsertionType {
+		Append,
+		Join
+}
+
+enum InternalLeaderboardKind {
+	RankedGames,
+	Tournaments,
+	InterClanContribution
+}
+
+enum InventoryType {
+		CardBack,
+		RoomTheme,
+		Pattern
+}
+
+enum InviteType {
+	Game,
+	Tournament,
+	Friendship,
+	MassTournament,
+	TVCreateGamePopup
+}
+
+enum IsEqual {
+	equal,
+	notEqual
+}
+
+enum ItemCategory {
+	Cards = 1,
+	Rooms,
+	Gifts,
+	Patterns,
+	AnimatedGifts,
+	Emotes,
+	GameActions
+}
+
+enum ItemImageType {
+		InGame,
+		InGameLandscape,
+		LobbyFrame,
+		StoreTitle,
+		StorePreview
+}
+
+enum JackarooActions {
+	NONE = 0,
+	MOVE = 1,
+	MOVE_REVERSE = 2,
+	MOVE_ANY = 4,
+	MOVE_EAT_PATH = 8,
+	MOVE_CHOICE_1 = 0x10,
+	MOVE_CHOICE_11 = 0x20,
+	MOVE_SPLIT_1_6 = 0x40,
+	MOVE_SPLIT_2_5 = 0x80,
+	MOVE_SPLIT_3_4 = 0x100,
+	MOVE_SPLIT_4_3 = 0x200,
+	MOVE_SPLIT_5_2 = 0x400,
+	MOVE_SPLIT_6_1 = 0x800,
+	MOVE_SPLIT_7_0 = 0x1000,
+	SWAP = 0x2000,
+	BURN_MY_CARD = 0x4000,
+	BURN_OTHER_CARD = 0x8000,
+	BURN_OTHER_CARD_RANDOM = 0x10000,
+	PLANT = 0x20000,
+	STEAL = 0x40000
+}
+
+enum JackarooAllowedRules {
+	DEFAULT = 0,
+	ACE_MOVE_1_11_PLANT = 0,
+	ACE_MOVE_1_PLANT = 1,
+	KING_BLACK_PLANT_MOVE_EAT_PATH = 0,
+	KING_BLACK_PLANT_MOVE_NO_KILL = 2,
+	KING_BLACK_MOVE_EAT_PATH = 4,
+	KING_BLACK_PLANT = 8,
+	KING_RED_PLANT_MOVE_EAT_PATH = 0,
+	KING_RED_PLANT_MOVE_NO_KILL = 16,
+	KING_RED_MOVE_EAT_PATH = 32,
+	KING_RED_PLANT = 64,
+	QUEEN_BLACK_MOVE = 0,
+	QUEEN_BLACK_BURN = 128,
+	QUEEN_BLACK_STEAL = 256,
+	QUEEN_RED_BURN = 0,
+	QUEEN_RED_MOVE = 512,
+	QUEEN_RED_STEAL = 1024,
+	JACK_BLACK_SWAP = 0,
+	JACK_BLACK_MOVE = 2048,
+	JACK_RED_MOVE = 0,
+	JACK_RED_SWAP = 4096,
+	TEN_BURN_MOVE = 0,
+	TEN_MOVE = 8192,
+	LAST_7_SHARED = 0,
+	DISABLE_LAST_7_SHARED = 16384,
+	BASE_ENTRY_BLOCKING = 0,
+	DISABLE_BASE_ENTRY_BLOCKING = 32768,
+	BLOCKED_BY_TWO_CONSECUTIVE_MARBLES = 0,
+	BLOCKED_BY_TWO_CONSECUTIVE_MARBLES_SAME_COLOR = 65536,
+	DISABLE_BLOCKED_BY_TWO_CONSECUTIVE_MARBLES = 131072,
+	SAME_COLOR_MARBLE_BLOCK = 0,
+	DISABLE_SAME_COLOR_MARBLE_BLOCK = 262144
+}
+
+enum JackarooAllowedRulesCategory {
+	Ace,
+	KingBlack,
+	KingRed,
+	QueenBlack,
+	QueenRed,
+	JackBlack,
+	JackRed,
+	Ten,
+	Seven,
+	BlockBase,
+	TwoConsecutive,
+	PassSameColor
+}
+
+enum JackarooNodeType {
+	None,
+	Home,
+	BaseEntry,
+	Base,
+	Graveyard
+}
+
+enum JackarooPlayingStage {
+		None,
+		SelectingMarble,
+		SelectingAction,
+		SelectingMarbleAndAction,
+		SelectingFromPicker
+}
+
+enum JackarooServerActions {
+	PLANT,
+	MOVE,
+	MOVE_REVERSE,
+	MOVE_ANY,
+	MOVE_EAT_PATH,
+	MOVE_CHOICE_1,
+	MOVE_CHOICE_11,
+	MOVE_SPLIT_1_6,
+	MOVE_SPLIT_2_5,
+	MOVE_SPLIT_3_4,
+	MOVE_SPLIT_4_3,
+	MOVE_SPLIT_5_2,
+	MOVE_SPLIT_6_1,
+	MOVE_SPLIT_7_0,
+	SWAP,
+	BURN_MY_CARD,
+	BURN_OTHER_CARD,
+	BURN_OTHER_CARD_RANDOM,
+	STEAL
+}
+
+enum JackarooStat {
+		Plants,
+		Moves,
+		Kills,
+		FriendlyFire,
+		Deaths,
+		AllyHelp,
+		OpponentSabotage,
+		PiecesBlock,
+		ReturnOfTheKing,
+		CardBurnt,
+		CardBurns,
+		FastToBase
+}
+
+enum KammelnaError {
+	NoError = 1000,
+	UnknownError = 1001,
+	InvalidAction = 1002,
+	RateLimited = 1003,
+	UserNotFound = 2000,
+	NoPasswordOrSocialToken = 2001,
+	RequiresSubscription = 2002,
+	RequiresNonNewAccount = 2003,
+	InvalidRefreshToken = 2004,
+	UserKicked = 2005,
+	Requires24HoursFromLastLogin = 2006,
+	RequiresPasswordReset = 2007,
+	AppIntegrityIssue = 2008,
+	OutdatedVersion = 2009,
+	EmailAlreadyUsed = 3000,
+	NickNameAlreadyUsed = 3001,
+	WrongConfirmationCode = 3002,
+	TimeLimit = 4000,
+	CantLikeThisUser = 4001,
+	FriendAddedOrBlocked = 4002,
+	NotTitle = 4003,
+	AvatarUploadBlocked = 4004,
+	InviteTokenExpired = 4005,
+	InvalidAvatar = 4006,
+	NotSafeAvatar = 4007,
+	MatchNotFound = 5000,
+	CreationLocked = 5001,
+	PrizeInvalid = 5002,
+	InvalidCode = 6000,
+	ExpiredCode = 6001,
+	AlreadyAssignedCode = 6002,
+	FailedToGenerateCode = 6003,
+	NotEnoughAces = 6004,
+	ItemNotFound = 6005,
+	ItemAlreadyOwned = 6006,
+	BombUsedUp = 6007,
+	BombAlreadyClaimed = 6008,
+	SubDurationTooShort = 6009,
+	ProductNotFound = 7000,
+	PurchaseInvalid = 7001,
+	AlreadyProcessed = 7002,
+	NoSuchStoreExists = 7003,
+	IncorrectQuantity = 7004,
+	IncorrectTotal = 7005,
+	SubscriptionTooOld = 7006,
+	SoldOut = 7007,
+	OfferNotFound = 7008,
+	MissingAppleReceipt = 7009,
+	PurchaseTransactionNotFound = 7010,
+	IncorrectSid = 7100,
+	AlreadyPredictedThisMatch = 8000,
+	ExpiredMatchPrediction = 8001,
+	SeasonNotFound = 8002,
+	SeasonAlreadyFinished = 8003,
+	NoActiveSeason = 8004,
+	ReferralUserIsNotNew = 9000,
+	WrongReferrer = 9001,
+	ReferralAlreadyReported = 9002,
+	ReferralRewardAlreadyClaimed = 9003,
+	InvalidSupportTicket = 10001,
+	InvalidChatbotResponse = 10002,
+	STCPayMerchantRelatedError = 11001,
+	STCPayInvalidMobileNumber = 11002,
+	STCPayCustomerAccountIssue = 11003,
+	STCPayInsufficientBalance = 11004,
+	STCPayOtpRequestLimitExceededWaitAMinute = 11005,
+	STCPayOtpRequestLimitExceededWait15Minutes = 11006,
+	STCPayInvalidOtp = 11007,
+	STCPayPaymentAlreadyPaid = 11008,
+	STCPayPaymentCancelled = 11009,
+	InvalidPaymentInformation = 11010,
+	CardAlreadySaved = 11011,
+	PaymentNotCompleted = 11012,
+	InsufficientStatsForReport = 12000,
+	ReportAlreadyGenerated = 12001,
+	ClanNotFound = 13001,
+	AlreadyClanMember = 13002,
+	NotClanMember = 13003,
+	ClanPermissionRequired = 13004,
+	JoinClanRequestNotValid = 13005,
+	ClanNameTaken = 13006,
+	ClanFull = 13007,
+	OwnerCannotLeaveWithMembers = 13008,
+	OwnerCannotBeKicked = 13009,
+	CannotKickSelf = 13010,
+	NotClanOwner = 13011,
+	InviteAlreadyExists = 13012,
+	ClanInviteNotFound = 13013,
+	AlreadyHasPendingRequest = 13014,
+	ClanLogoElementNotFound = 13015,
+	ClanLogoElementInactive = 13016,
+	ClanLogoElementTierNotFound = 13017,
+	ClanLogoElementTierAlreadyExists = 13018,
+	ClanLogoAlreadySet = 13019,
+	ClanLogoNotSet = 13020,
+	ClanLogoModelInvalid = 13021,
+	ClanVaultSpendNotAvailable = 13022,
+	ClanVaultInsufficient = 13023,
+	SupportRequestAlreadyOpen = 13024,
+	SupportRequestNotOpen = 13025,
+	ClanNotActiveForActivity = 13026,
+	ClanFeedNotFound = 13027,
+	ClanFeedTypeNotPinnable = 13028,
+	ClanFeedTypeNotLikeable = 13029,
+	ClanFeedNotOwnClan = 13030,
+	ClanXpInsufficient = 13031,
+	ClanAlreadyAtMaxTier = 13032,
+	ClanRollbackNotAvailable = 13033,
+	ClanRollbackWindowExpired = 13034,
+	ClanFeedTypeNotDeletable = 13035,
+	ClanJoinRequestNotFound = 13036,
+	EmblemAtMaxForTier = 13037,
+	EmblemTierNotPurchased = 13038,
+	ClanNameNotAllowed = 13039,
+	MarketingGrantNotFound = 14000,
+	MarketingGrantExpired = 14001,
+	MarketingGrantAlreadyRedeemed = 14002,
+	MarketingGrantRevoked = 14003,
+	MarketingGrantMaxRedemptionsReached = 14004
+}
+
+enum KloggerDebugLevel {
+		Disabled,
+		Errors,
+		Warnings,
+		Messages,
+		Analytics,
+		Comments
+}
+
+enum LayerOptions {
+		MainCanvas,
+		SecondaryCanvas,
+		CustomParent
+}
+
+enum LeaderboardPeriod {
+	Weekly,
+	Monthly
+}
+
+enum LeaveReason {
+	RoomClosed,
+	Kicked,
+	Banned,
+	TeammateReject,
+	Idle
+}
+
+enum LevelDescState {
+	Locked,
+	Done,
+	Active
+}
+
+enum LevelTabPos {
+	Edge,
+	Middle
+}
+
+enum LevelTabState {
+	Locked,
+	Done,
+	Active
+}
+
+enum LockedRoomRequestSubCommand {
+	Return,
+	Forfeit
+}
+
+enum LoginErrorCode {
+	UnknownError = -1,
+	IncorrectInfo = 1,
+	Kicked = 2,
+	LoggedToDifferentServer = 3,
+	Restricted = 4,
+	Banned = 5,
+	NewUser = 7,
+	Lockdown = 8,
+	InvalidVersion = 9,
+	InvalidToken = 10,
+	TokenExpired = 11,
+	ResetPasswordRequired = 12
+}
+
+enum LoginStatus {
+	None,
+	Initiated,
+	Connecting,
+	Connected,
+	ConnectionFailed,
+	ConnectionTimeout,
+	LoggingIn,
+	LoggedIn,
+	LoginFailed,
+	ConnectionLost,
+	LoggedOut,
+	OfflineGame
+}
+
+enum MassEventNextStageEligibility {
+	NotEligible,
+	Eligible,
+	EligibleToReserve
+}
+
+enum MassEventStageType {
+	ConstantPlayersFilter,
+	ConstantPointsFilter,
+	PlayersRatioFilter,
+	TournamentWinnersFilter,
+	Physical
+}
+
+enum MassTournamentImageType {
+		BigAd,
+		SmallAd,
+		BigLogo,
+		SmallLogo,
+		BackGround,
+		PrizesGrouped
+}
+
+enum MediaType {
+		Gallery,
+		Camera
+}
+
+enum MembershipProblems {
+	None,
+	LostUserId
+}
+
+enum MessageType {
+		Info,
+		Action,
+		Waiting,
+		Error
+}
+
+enum MiniGameCardStatus {
+	InHand,
+	PreparedForDiscard
+}
+
+enum MiniGameRewardTiers {
+	TierOne = 5,
+	TierTwo = 15,
+	TierThree = 50,
+	TierFour = 400
+}
+
+enum MiniGameSoundAlbumTrack {
+	PlayButton,
+	CardShuffle,
+	CardDraw,
+	ThreeCardsDraw,
+	Discard,
+	Win,
+	NoRewards,
+	CardClicked,
+	TierOne,
+	TierTwo,
+	TierThree,
+	TierFour
+}
+
+enum MobliePaymentError {
+	NONE,
+	CONNECT_TO_HOST,
+	DECODE_JSON,
+	NO_STATUS_IN_RESPONSE,
+	RECEIPT_INVALID,
+	NO_RECEIPT_IN_RESPONSE,
+	ALREADY_PROCESSED,
+	SAVING_PAYMENT,
+	PRODUCT_ID_NOT_FOUND,
+	GENERATING_SUBSCRIPTION,
+	SUBSCRIPTION_ASSIGN_USER_NOT_FOUND,
+	SUBSCRIPTION_ASSIGN_NOT_FOUND,
+	SUBSCRIPTION_ASSIGN_ALREADY_USED,
+	SUBSCRIPTION_ASSIGN_FAILED_SAVE,
+	SUBSCRIPTION_ASSIGN_USER_FAILED_SAVE,
+	PLATFORM_IS_UNKNOWN,
+	VALIDATING_AGAINST_GOOGLE_API_FAILED,
+	PURCHASE_STATE_IS_NOT_PURCHASED,
+	EMPTY_RESPONSE,
+	ERROR_WRONG_EMAIL,
+	ERROR_WRONG_PASSWORD,
+	ERROR_WRONG_USER,
+	ERROR_WRONG_ITEM,
+	ERROR_WRONG_QUANTITY,
+	ERROR_SAVING_USER_ITEM,
+	ERROR_WRONG_ITEM_PRODUCT_ID,
+	ERROR_MISSING_ITEM_PRODUCT_ID,
+	UNKNOWN_ERROR
+}
+
+enum Mode {
+		All,
+		Any
+}
+
+enum Mode {
+		FixOnly,
+		Localize,
+		LocalizeArguments
+}
+
+enum Mode {
+		Hide,
+		Disable
+}
+
+enum Mode {
+		Instant,
+		Queued
+}
+
+enum ModeratorAction {
+		Kick,
+		Mute,
+		Unmute
+}
+
+enum MonthlyTournamentEligibilityType {
+	NotEligible,
+	Platinum,
+	Gold,
+	Silver,
+	Bronze
+}
+
+enum MuteStatus {
+	None,
+	MutedByAdmin
+}
+
+enum NavDirection {
+		None,
+		Up,
+		Down,
+		Left,
+		Right
+}
+
+enum NotEligibleOption {
+		ShowNotEligible,
+		HideEligibility
+}
+
+enum NotificationImageType {
+		Small,
+		Large
+}
+
+enum NudgeEffect {
+	None,
+	PunchScale,
+	ShakeScale
+}
+
+enum OfferType {
+	Introductory = 1,
+	Promotional,
+	OfferCode,
+	WinBack
+}
+
+enum Option {
+		SFXSound,
+		ChatSound,
+		GameSound,
+		BackgroundMusic,
+		SoundActor,
+		CardDimming,
+		ConfirmSawa,
+		ForceTablet,
+		BiddingPredetermination,
+		EnablePowerSaving,
+		AllowDifferentCardElevation,
+		AllowMyTurnHandAnimation,
+		AllowVibration,
+		ShowJackarooTips,
+		IsPerspectiveTopDown,
+		CurrentGame,
+		MultipleVoiceActors,
+		IgnoreWatchersChat,
+		UsedReplayTrails,
+		JackarooCustomRulesIndex
+}
+
+enum Orientation {
+		Horizontal,
+		Vertical
+}
+
+enum Origin {
+		Left,
+		Center,
+		Right
+}
+
+enum PaletteColor {
+	Primary,
+	PrimaryEffect,
+	PrimaryText,
+	Secondary,
+	SecondaryEffect,
+	SecondaryText,
+	Accessory1,
+	Accessory2
+}
+
+enum PaymentMethod {
+	None,
+	GoogleStore,
+	AppleStore,
+	TwoCheckout,
+	BankTransfer,
+	StcPay,
+	UrWay
+}
+
+enum PerformanceReportType {
+	Points = 0,
+	Streak = 1,
+	Wins = 2,
+	Likes = 3,
+	BidStrength = 1000,
+	Cheating = 1001,
+	Catching = 1002,
+	Hunter10 = 1003
+}
+
+enum PickerMode {
+		Normal,
+		PastOnly,
+		FutureOnly
+}
+
+enum PinnedForm {
+	Morph,
+	SeparatePrefab
+}
+
+enum Placement {
+		TopBar,
+		BottomBar,
+		GameUI,
+		Popup
+}
+
+enum Platform {
+	Unknown,
+	Android,
+	IOS,
+	Web,
+	Huawei
+}
+
+enum PlayError {
+		NotEnoughAces,
+		CannotShowAd
+}
+
+enum PlayerDecision {
+	NotDetermined,
+	StopPlaying,
+	PlayMore
+}
+
+enum PlayerPerformance {
+	Weak,
+	Good,
+	Excellent,
+	Perfect,
+	Champion
+}
+
+enum PlayerReportType {
+	None,
+	Cheating,
+	Profanity
+}
+
+enum PredictAndWinImageType {
+		LeagueLogo,
+		SponsorLogo,
+		SponsorImage,
+		TweetImage
+}
+
+enum PredictionRewardType {
+	NotDetermined,
+	Ineligible,
+	CorrectScore,
+	CorrectWinner,
+	Participation
+}
+
+enum PredictionTeamState {
+	None,
+	Winner,
+	PredictedWinner,
+	Draw,
+	PredictedDraw
+}
+
+enum PresenceKind {
+	Lobby,
+	InGame,
+	InTournament,
+	InMassTournament
+}
+
+enum PrizeCondition {
+		Required,
+		Optional,
+		Disallowed
+}
+
+enum PrizeLevel {
+	Total,
+	First,
+	Second,
+	Third
+}
+
+enum ProblemAppScreen {
+	None,
+	RankedMatch,
+	FriendlyMatch,
+	KammelnaCup,
+	MainMenu,
+	Store,
+	FriendsCenter,
+	MiniGame,
+	PredictAndWin,
+	Other
+}
+
+enum ProblemCategory {
+	SubscriptionAndCoins,
+	GameProblems,
+	PlayerReport,
+	MembershipProblems,
+	SuggestionsAndIdeas,
+	WebOrdersProblems
+}
+
+enum ProgressAnimation {
+	Immediate,
+	FromZero,
+	FromCurrent
+}
+
+enum ProjectType {
+	RankSequence,
+	SuitsGroup
+}
+
+enum QuickReplyState {
+		closed,
+		closing,
+		opened,
+		opening,
+		expanded,
+		expanding
+}
+
+enum Rank {
+	TWO,
+	THREE,
+	FOUR,
+	FIVE,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
+	TEN,
+	JACK,
+	QUEEN,
+	KING,
+	ACE,
+	NONE
+}
+
+enum RankedPlayCondition {
+	CanPlay,
+	ShouldWatchAds,
+	ShouldPay,
+	MustPay
+}
+
+enum Ranks {
+		AI,
+		Beginner,
+		Intermediate,
+		Advanced,
+		Professional,
+		Expert,
+		Master,
+		Elite,
+		King
+}
+
+enum RatingStatus {
+		New,
+		Rated,
+		DidNotLike,
+		AskLater
+}
+
+enum ReferralRewardType {
+	None,
+	SubscriptionDays,
+	Coins,
+	Item
+}
+
+enum RefundReason {
+	TournamentCancelled,
+	ChallengeCancelled
+}
+
+enum Relativity {
+		Past,
+		Future
+}
+
+enum ReplayEventsTypes {
+	None,
+	Waraq,
+	Bid,
+	DeclareProject,
+	PlayCard,
+	Sawa,
+	EatCard,
+	CatchCheat,
+	Chat,
+	Gift,
+	Leave,
+	Join,
+	EndRound,
+	EndGame,
+	Comment,
+	CardsDealt,
+	Kasho
+}
+
+enum ReplyCategory {
+	Peaceful,
+	Excitement,
+	Game,
+	Negative,
+	Sorry
+}
+
+enum ReportElementType {
+	description,
+	violatingUserInfo,
+	chatMessage,
+	userContactEmail,
+	problemTime,
+	transactionNumber,
+	userBankName,
+	visaLast4Digits,
+	otherProblemLocation,
+	otherGameProblem,
+	paymentChannel,
+	bankPurchaseType,
+	bank,
+	problemLocation,
+	freezingType,
+	imageAttachment,
+	userPhoneNumber,
+	receiptText
+}
+
+enum ReportType {
+		Categories,
+		Subscription,
+		Game,
+		Membership,
+		Suggestions,
+		WebOrders
+}
+
+enum RequestStatus {
+		WaitingTurn,
+		Requesting
+}
+
+enum ResourceCurrency {
+	None,
+	Aces
+}
+
+enum ResourceFlowType {
+	None,
+	Source,
+	Sink
+}
+
+enum ResourceItemId {
+	Code = 1,
+	Minigame = 2,
+	BombClaim = 3,
+	RoomCreate = 4,
+	RoomJoin = 5,
+	TournamentCreate = 6,
+	TournamentJoin = 7,
+	Fasttrack = 8,
+	AdSkip = 9,
+	Subscription = 10,
+	CardSlap = 11,
+	SawaSlap = 12,
+	Bomb = 13,
+	Transfer = 14,
+	ClanCreate = 15,
+	ClanVaultDeposit = 19,
+	AcesPack = 100,
+	Theme = 101,
+	Card = 102,
+	Pattern = 103,
+	Emote = 104,
+	Unique = 105,
+	Gift = 106,
+	Like = 107
+}
+
+enum ResourceItemType {
+	IAP = 1,
+	Reward,
+	Access,
+	Gameplay,
+	Cosmetic,
+	Social
+}
+
+enum RoomElementDataType {
+		RoomSpineAnimation,
+		RoomSpineAtlas
+}
+
+enum RoomGroup {
+	Default,
+	Tournaments
+}
+
+enum RoomProperties {
+		Cheating = 1,
+		NonCheating
+}
+
+enum RoutingCommand {
+	NO_MESSAGE = 0,
+	Internal_Error = 1,
+	RoomInitializationError = 2,
+	OpenCustomURL = 3,
+	FetchServer = 1000,
+	Login = 2000,
+	Login_Error = 2001,
+	Menu = 3000,
+	HomeTab = 3100,
+	OpenUpdateAppLink = 3110,
+	TVCreateGamePopup = 3120,
+	TournamentsListTab = 3300,
+	PublicTournamentsListTab = 3301,
+	OfficialTournamentsListTab = 3302,
+	PrivateTournamentsListTab = 3303,
+	MassTournamentsListTab = 3304,
+	CommunityTab = 3400,
+	OfficialTournamentsLeaderboardTab = 3401,
+	OnlinePlayersTab = 3402,
+	RankLeaderboardTab = 3403,
+	Chat = 3500,
+	Bio = 3600,
+	WeeklyRank = 3601,
+	MonthlyRank = 3602,
+	OverallRank = 3603,
+	PerformanceWeekly = 3604,
+	PerformanceMonthly = 3605,
+	Trophies = 3606,
+	Titles = 3607,
+	Achievements = 3608,
+	FriendsList = 3700,
+	FriendsAdditionsPanel = 3701,
+	Game = 4000,
+	FastTrackMenu = 5000,
+	MiniGame = 6000,
+	Store = 7000,
+	MainStore = 7001,
+	CardsStore = 7002,
+	RoomThemesStore = 7003,
+	SubscriptionsStore = 7004,
+	GoldenCardsStore = 7005,
+	BuyProduct = 7006,
+	PresentRedeemCodeSheet = 7007,
+	BuyOffer = 7009,
+	Settings = 8000,
+	EditCards = 8001,
+	EditAvatar = 8002,
+	EditRoomThemes = 8003,
+	GameplaySettings = 8004,
+	SoundSettings = 8005,
+	AccountSettings = 8006,
+	GameReplay = 8007,
+	EditProfile = 8100,
+	EditProfile_Patterns = 8101,
+	EditProfile_RoomThemes = 8102,
+	EditProfile_Titles = 8103,
+	EditProfile_Cardbacks = 8104,
+	EditProfile_FeaturedSlot = 8105,
+	PredictAndWin = 9000,
+	UpcomingPredictionMatches = 9001,
+	PredictionsLeaderboard = 9002,
+	MyPredictions = 9003,
+	Tutorial = 11000,
+	Tutorial_Sun = 11001,
+	Tutorial_Catch = 11002,
+	Tutorial_Hokom = 11003,
+	TournamentView = 12000,
+	TournamentOverview = 12001,
+	TournamentBracket = 12002,
+	ClusterTournaments = 12003,
+	TournamentTeams = 12004,
+	TournamentChat = 12005,
+	JoinTournaemntSpawner = 12100,
+	MassTournament = 13000,
+	MassTournamentWithCode = 13001,
+	ClanTab = 14000,
+	ClanLeaderboard = 14001,
+	ClanCreation = 14002,
+	ClanJoinRequest = 14003,
+	RedeemGrant = 15000
+}
+
+enum RuleType {
+	CardRule,
+	BaseEntryRule,
+	TwoConsecutiveMarblesRule,
+	Last7SharedRule,
+	SameColorBlockRule
+}
+
+enum SalesChannel {
+	Sms,
+	OneCard,
+	Free,
+	Jarir,
+	Meed,
+	Obeikan,
+	TwoCo,
+	Arasoft,
+	Facebook,
+	Ios,
+	OneCardDirect,
+	SmsRecurring,
+	GooglePlay,
+	GooglePlayRecurring,
+	Numny,
+	ReferralReward,
+	Cash,
+	IosRecurring,
+	GooglePlayRecurringFreeTrial,
+	IosRecurringFreeTrial,
+	IosGameStore,
+	GooglePlayGameStore,
+	Adsense,
+	UnityAds,
+	PredictAndWin,
+	AcesToSub,
+	StcPay,
+	HuaweiGameStore,
+	HuaweiRecurring,
+	Urway,
+	Mintroute,
+	SubBomb,
+	Tabby,
+	LikeCard,
+	Tamara,
+	Moyasar
+}
+
+enum Scenes {
+	FetchServer = 1,
+	Login = 2,
+	Menu = 3,
+	Game = 4,
+	FastTrackMenu = 5,
+	MiniGame = 6,
+	Store = 7,
+	Settings = 8,
+	PredictAndWin = 10,
+	ReferralCenter = 11,
+	Tutorial = 13,
+	TournamentView = 14,
+	MassTournament = 15
+}
+
+enum Score {
+		Open,
+		BestOf,
+		NumberOfGames
+}
+
+enum ScreenForceMode {
+		None,
+		Phone,
+		Tablet
+}
+
+enum ScrollDirection {
+	UP,
+	DOWN
+}
+
+enum SeatStatus {
+	Free,
+	Reserved,
+	Idle,
+	IdleBlocked,
+	WaitingForApproval,
+	WaitingForRestart,
+	Full
+}
+
+enum SelectedVector {
+	Single,
+	X,
+	Y,
+	Z,
+	XY,
+	XZ,
+	YZ,
+	XYZ
+}
+
+enum ServerEnvironment {
+	Production,
+	Staging,
+	Development
+}
+
+enum Skin {
+		Normal = 1,
+		Challenge
+}
+
+enum SocialPlatform {
+	None = -1,
+	Facebook,
+	Twitter,
+	Google,
+	Apple
+}
+
+enum Source {
+		Current,
+		Max,
+		Percent,
+		Ratio
+}
+
+enum SportTeamImageType {
+		Prediction,
+		Celebration
+}
+
+enum StatType {
+	PositiveHighest,
+	PositiveLowest,
+	NegativeHighest,
+	NegativeLowest
+}
+
+enum StatisticsReportType {
+	Weekly,
+	Monthly
+}
+
+enum Status {
+		None,
+		Highlight,
+		PendingRequest,
+		PendingResponse,
+		Accepted,
+		Rejected
+}
+
+enum Status {
+		PendingAccept,
+		PendingResponse,
+		Accepted,
+		Blocked
+}
+
+enum Status {
+		Waiting,
+		Started,
+		Finished
+}
+
+enum StcPaymentStatus {
+	Pending,
+	Paid,
+	Cancelled,
+	Expired
+}
+
+enum StoreHomeSectionType {
+	Banners,
+	Subscriptions,
+	Currency,
+	CardBacks,
+	RoomThemes,
+	UniqueItems,
+	ProfilePatterns,
+	Bundles
+}
+
+enum StoreSoundAlbumTrack {
+	CardBackSwitchLeft,
+	CardBackSwitchRight,
+	ItemActivate,
+	SuccessfulPurchase
+}
+
+enum SubscriptionAndCoinsIssues {
+	None,
+	ExplainSubscriptions,
+	ActivateSubscription,
+	SubscriptionProblem,
+	StoreAndCurrencyProblem,
+	SubscriptionInquiry
+}
+
+enum SubscriptionStatus {
+	None,
+	Expired,
+	Subscribed,
+	Temporary
+}
+
+enum SuggestionsAndInquiriesType {
+	None,
+	Suggestion,
+	ContactMarketing
+}
+
+enum Suit {
+	SPADES,
+	HEARTS,
+	CLUBS,
+	DIAMONDS,
+	NONE
+}
+
+enum SwayDirection {
+		DontSway,
+		SwayRight,
+		SwayLeft
+}
+
+enum TabName {
+		WeeklyTab,
+		MonthlyTab,
+		OverAllTab
+}
+
+enum TabletScene {
+		FetchServer = 1,
+		Login = 2,
+		Menu = 3,
+		Game = 4,
+		FastTrackMenu = 5,
+		MiniGame = 6,
+		Store = 7,
+		Settings = 8,
+		PredictAndWin = 10,
+		ReferralCenter = 11,
+		Tutorial = 13,
+		TournamentView = 14,
+		MassTournament = 15
+}
+
+enum TarneebBiddingStage {
+	EatingBid,
+	PickingSuit
+}
+
+enum TarneebSound {
+
+}
+
+enum Theme {
+		Light,
+		Dark,
+		InGame
+}
+
+enum TicketType {
+	PublicTournament,
+	OfficialTournament
+}
+
+enum TournamentAddonAvailability {
+		Disabled,
+		Public,
+		Private
+}
+
+enum TournamentAddonType {
+	Cardback,
+	RoomTheme,
+	VoiceChat,
+	Message,
+	TitleRestriction,
+	Championship,
+	SportCelebration,
+	GrantTitle,
+	AdCampaign
+}
+
+enum TournamentEligibilityStatus {
+	Eligible,
+	NotEligible,
+	EligibleToReserve
+}
+
+enum TournamentPrize {
+		FirstPrize = 1,
+		SecondPrize
+}
+
+enum TournamentPrizeType {
+	NotDetermined = 0,
+	NoPrize = 1,
+	Aces = 2,
+	MassEventPoints = 3,
+	MassStageAdvance = 4,
+	TournamentPoints = 9,
+	MonthlyPrize = 10
+}
+
+enum TournamentStatus {
+	Scheduled,
+	Running,
+	Cancelled,
+	Refunded,
+	Finished,
+	FinalCountdown
+}
+
+enum TournamentSubType {
+	Platinum,
+	Gold,
+	Silver,
+	Bronze
+}
+
+enum TournamentType {
+	Public,
+	Private,
+	Mass,
+	Official,
+	OfficialMonthly
+}
+
+enum TrackerPurchase {
+	None = 0,
+	AcesPack = 12001,
+	Subscriptions = 12002,
+	CodeActivation = 12003,
+	BuyForFriend = 12004
+}
+
+enum TrackingContext {
+	Onboarding,
+	Account,
+	Navigation,
+	Social,
+	Communication,
+	RewardedEngagement,
+	Monetization,
+	Game,
+	Preferences,
+	Diagnostic,
+	Dev
+}
+
+enum TrackingFeature {
+	FirstUseExperience,
+	Register,
+	Login,
+	ResetPassword,
+	SocialSignin,
+	HomeScreen,
+	Rooms,
+	Tournament,
+	FastTrack,
+	FindingGame,
+	SwitchGame,
+	Chat,
+	VoiceChat,
+	Profile,
+	Customization,
+	Friends,
+	Leaderboards,
+	GiftBomb,
+	ShareGame,
+	Notification,
+	ForcedNotification,
+	UserFeed,
+	AnnouncementButton,
+	FlashSale,
+	MiniGame,
+	MatchPrediction,
+	StoreHome,
+	InAppPurchase,
+	ItemsStore,
+	UniqueItems,
+	CodeActivation,
+	Ads,
+	CurrencyToSub,
+	CurrencyTransfer,
+	ExpiredSubReminder,
+	Gameplay,
+	EndGame,
+	MassEvents,
+	GameStatistics,
+	AppPreferences,
+	GamePreferences,
+	PushNotification,
+	UserInfo,
+	DeviceInfo,
+	LogoScript,
+	GameReplay,
+	JackarooCustomRules,
+	FriendlyChallenge,
+	KammelnaTV,
+	Clan,
+	UiNav,
+	MarketingGrant
+}
+
+enum TrackingOutcome {
+	OnboardingStarted,
+	OnboardingScreenViewed,
+	OnboardingCompleted,
+	OnboardingSkipped,
+	RegisterViewed,
+	RegisterClicked,
+	RegisterSucceeded,
+	RegisterError,
+	LoginViewed,
+	LoginClicked,
+	LoginSucceeded,
+	LoginError,
+	AutoLoginSucceeded,
+	RestPasswordViewed,
+	ResetPasswordClicked,
+	ResetPasswordSucceeded,
+	ResetPasswordError,
+	SocialConnected,
+	SocialConnectionError,
+	SocialLinked,
+	SocialLinkedError,
+	SocialUnlinked,
+	SocialUnlinkedError,
+	MainMenuViewed,
+	FastTrackClicked,
+	FriendlyClicked,
+	RankedClicked,
+	OfflinePlayClicked,
+	RankedAdCompleted,
+	BuyCurrencyClicked,
+	StoreClicked,
+	AnnouncementButtonClicked,
+	FlashSaleShown,
+	FlashSaleClicked,
+	RoomCreated,
+	RoomListViewed,
+	RoomJoinClicked,
+	RoomWatchClicked,
+	RoomChallengeWatchClicked,
+	SwitchGameOnboardingPageViewed,
+	SwitchGamePageViewed,
+	SwitchGameOnboardingClicked,
+	SwitchGameClicked,
+	SwitchGameClickedAfterNewGame,
+	SwitchGameBackClicked,
+	TournamentJoined,
+	MassJoined,
+	HasUnfinishedMatchesError,
+	MatchedInSeconds,
+	StartMatchingClicked,
+	EndMatchingClicked,
+	ClaimRankClicked,
+	NextStageClicked,
+	WatchUnfinishedMatchClicked,
+	BackToMainMenuClicked,
+	LogoClicked,
+	UnmatchedAfterTimeUp,
+	HelpClicked,
+	HelpFirstTimeViewed,
+	MiniProfileViewed,
+	MiniProfileLiked,
+	MiniProfileAddFriend,
+	MiniProfileLoadError,
+	FullProfileViewed,
+	FullProfileLoadError,
+	AchievementDescriptionViewed,
+	TrophyDescriptionViewed,
+	TitleActivated,
+	AvatarUploaded,
+	AvatarRemoved,
+	BioUpdated,
+	FriendsCenterViewed,
+	LeaderboardViewed,
+	BombCreationViewed,
+	CurrencyBombBought,
+	SubscriptionBombBought,
+	PinnedAvatarLikeClicked,
+	SubBombClaimViewed,
+	SubBombClaimDismissed,
+	SubBombClaimLiked,
+	SubBombClaimThanks,
+	NotificationCenterViewed,
+	NotificationViewed,
+	NotificationActionClicked,
+	NotificationReadMoreClicked,
+	NotificationDismissed,
+	ForcedNotificationViewed,
+	ForcedNotificationActionClicked,
+	ForcedNotificationsDismissed,
+	UserFeedViewed,
+	UserFeedClicked,
+	UserFeedsDismissed,
+	PushNotificationEnabled,
+	PushNotificationAsklater,
+	PushNotificationPermission,
+	PushNotificationOpened,
+	MiniGameViewed,
+	MiniGameError,
+	MiniGameClaim,
+	MiniGamePlayed,
+	MiniGamePlayedAgain,
+	MiniGameExitBeforeCompleted,
+	MiniGameRewardVideoCompleted,
+	PredictFirstTime,
+	PredictViewed,
+	PredictFailScreenshot,
+	PredictFailedRequest,
+	PredictTweetAttempted,
+	PredictSucceeded,
+	MainShopViewed,
+	SubShopViewed,
+	BannerClicked,
+	UniqueItemLoaded,
+	UniqueItemClicked,
+	UniqueItemAttemptBuy,
+	AnimatedRoomThemeViewed,
+	AnimatedRoomThemeActivated,
+	AnimatedRoomThemePreviewedNoBuy,
+	AnimatedRoomThemePreviewedAndBought,
+	AnimatedRoomThemeApplied,
+	RoomCreatedWithAnimatedTheme,
+	AnimatedRoomThemeTournamentAddon,
+	AnimatedRoomThemeActivatedInSettings,
+	CodeActivateClicked,
+	CodeActivateError,
+	OnlySubsViewed,
+	SubscribeClicked,
+	SubscribeWeeklyClicked,
+	SubscribeMonthlyClicked,
+	SubscribeYearlyClicked,
+	NotEnoughAcesViewed,
+	CurrencyBought,
+	MiniGameClicked,
+	BuyTicketError,
+	NotEnoughTicketsPopupViewed,
+	VoiceCallJoined,
+	SendSawaButtonClicked,
+	SawaButtonClicked,
+	SawaCancelClicked,
+	SendFastSawaClicked,
+	NextGameClicked,
+	WatchClicked,
+	ExitRoomClicked,
+	ForfeitWindowViewed,
+	ForfeitConfirmClicked,
+	GameFireModeClicked,
+	GameAnimatedGiftBought,
+	GameSawaSlapClicked,
+	GameCardSlapClicked,
+	GameAnimatedGiftClickedCanBuy,
+	GiftSent,
+	SafeExitClicked,
+	ShowProjectsClicked,
+	HideProjectsClicked,
+	ProjectClicked,
+	ShareClicked,
+	DisableChatClicked,
+	QuickReplyClicked,
+	QuickReplyTop4Clicked,
+	QuickReplyPanelOpened,
+	EmoteSent,
+	GameQuickReplyTextClicked,
+	GameQuickReplyEmoteClicked,
+	KashoButtonViewed,
+	KashoButtonClicked,
+	PerspectiveChangeClicked,
+	EndGamePopupViewed,
+	GameStatisticsViewed,
+	GameStatsClicked,
+	FastTrackForfeitAfterWarningClicked,
+	FastTrackLost,
+	ForfeitClicked,
+	SameTeammateTimerUp,
+	WaitTeammateApprovalTimeUp,
+	PopUpMisMatch,
+	FastTrackComplete,
+	FastTrackRoundFinishTime,
+	ExitRoundClicked,
+	NextRoundClicked,
+	ContinueNewPlayerClicked,
+	ContinueSamePlayerClicked,
+	LogoScriptShown,
+	DebugButtons,
+	DevMethods,
+	ShowTestAd,
+	GameSound,
+	ChatSound,
+	GameMusic,
+	VoiceActor,
+	MultiVoiceActor,
+	CardDim,
+	BidPredetermine,
+	AllowDifferentCardElevation,
+	ShowJackarooTips,
+	GameSoundToggled,
+	AnimatedRoomSoundToggledOff,
+	AnimatedRoomSoundToggledOn,
+	DontShowSawaToggled,
+	DontShowJackarooTipsToggled,
+	GamePlayPerspective,
+	OwnedAces,
+	RankPoints,
+	AdsBySameUser,
+	Cards,
+	ActiveCard,
+	Rooms,
+	ActiveRoom,
+	ScreenCutOut,
+	SocialLink,
+	AuthCleared,
+	PingPongFirstReading,
+	LowMemory,
+	RequestAdWhileIdfaStatues,
+	PurchaseServerError,
+	PoorConnectionViewed,
+	PlayAnywayClicked,
+	BackClicked,
+	GameReplaySaved,
+	GotoReplayClicked,
+	DeleteReplayClicked,
+	CommentAdded,
+	GameSpeedChanged,
+	SubscribedToWatchReplay,
+	ToggleShowPlayingCardsClicked,
+	ToggleShowControlPanelClicked,
+	ShowCommentClicked,
+	NextAklahClicked,
+	PreviousAklahClicked,
+	PrivateMessageSent,
+	GameInviteSent,
+	TournamentInviteSent,
+	CustomRulesEnum,
+	CustomRuleAce,
+	CustomRuleKingBlack,
+	CustomRuleKingRed,
+	CustomRuleQueenBlack,
+	CustomRuleQueenRed,
+	CustomRuleJackBlack,
+	CustomRuleJackRed,
+	CustomRuleTen,
+	CustomRuleSeven,
+	CustomRuleBlockBase,
+	CustomRuleTwoConsecutive,
+	CustomRulePassSameColor,
+	ChallengeCreated,
+	ChallengeCanceled,
+	ChallengeAccepted,
+	ChallengeRejected,
+	ChallengeRequestedNoAces,
+	TVInviteDeepLinkOpened,
+	TVInviteCheckRequested,
+	TVInviteAvailableViewed,
+	TVInviteBusyViewed,
+	TVInviteSubscribersOnlyViewed,
+	TVInviteAcceptClicked,
+	TVInviteRejectClicked,
+	TVInviteClaimSucceeded,
+	TVInviteClaimRaceLost,
+	TVInviteClaimError,
+	TVCreateGamePopupViewed,
+	TVCreateGamePopupClosed,
+	TVRoomCreated,
+	ClanTabOpened,
+	ClanOnboardingViewed,
+	ClanLandingViewed,
+	ClanDiscoveryOpened,
+	ClanBrowserViewed,
+	ClanSearchPerformed,
+	ClanListLoadError,
+	ClanInfoViewed,
+	ClanProfileLoadError,
+	ClanProgressViewed,
+	ClanCreateViewed,
+	ClanLogoEditorOpened,
+	ClanLogoSaved,
+	ClanCreateClicked,
+	ClanCreated,
+	ClanCreateError,
+	ClanCreateNotEnoughAces,
+	ClanEdited,
+	ClanEditError,
+	ClanJoinRequestClicked,
+	ClanJoinRequested,
+	ClanJoinRequestError,
+	ClanJoinRequestCanceled,
+	ClanJoinRequestCancelError,
+	ClanJoinRequestsViewed,
+	ClanJoinRequestAccepted,
+	ClanJoinRequestAcceptError,
+	ClanJoinRequestRejected,
+	ClanJoinRequestRejectError,
+	ClanControlPanelViewed,
+	ClanLeaveClicked,
+	ClanLeft,
+	ClanLeaveError,
+	ClanMemberKicked,
+	ClanMemberKickError,
+	ClanRolesViewed,
+	ClanPermissionsViewed,
+	ClanMemberPromoted,
+	ClanMemberDemoted,
+	ClanPermissionsUpdateError,
+	ClanOwnershipTransferViewed,
+	ClanOwnershipTransferred,
+	ClanOwnershipTransferError,
+	ClanVaultViewed,
+	ClanVaultDepositViewed,
+	ClanVaultDepositClicked,
+	ClanVaultDeposited,
+	ClanVaultDepositError,
+	ClanVaultDepositNotEnoughAces,
+	ClanSupportRequestViewed,
+	ClanSupportRequestClicked,
+	ClanSupportRequestCreated,
+	ClanSupportRequestError,
+	ClanVaultDonorsViewed,
+	ClanAutoRenewalEnabled,
+	ClanAutoRenewalDisabled,
+	ClanAutoRenewalError,
+	ClanEmblemUpgradeClicked,
+	ClanEmblemUpgraded,
+	ClanEmblemUpgradeError,
+	ClanChatMessageSent,
+	ClanActivityCreatorViewed,
+	ClanActivityCreated,
+	ClanActivityCreateError,
+	ClanActivityCreateNotEnoughVault,
+	ClanActivityDeleted,
+	ClanActivityDeleteError,
+	ClanInternalLeaderboardViewed,
+	ClanRollbackBannerViewed,
+	ClanRollbackConfirmViewed,
+	ClanRollbackRestored,
+	ClanRollbackWindowExpired,
+	ClanRollbackError,
+	UiClicked,
+	NavStoreClicked,
+	NavCommunityClicked,
+	NavHomeClicked,
+	NavTournamentsClicked,
+	NavChatClicked,
+	NavClanClicked,
+	NavNotificationsClicked,
+	NavFriendsClicked,
+	NavLeaderboardClicked,
+	NavMoreClicked,
+	NavGamesHubClicked,
+	NavClanInfoClicked,
+	NavClanInfoRulesClicked,
+	NavClanInfoDescriptionClicked,
+	NavClanInfoLeaderboardClicked,
+	NavClanInfoTabClicked,
+	NavClanDiscoveryTabClicked,
+	NavClanChatTabClicked,
+	NavClanActivitiesTabClicked,
+	MarketingGrantRedeemed,
+	MarketingGrantRedeemError
+}
+
+enum TrackingPlacement {
+	Background,
+	Onboarding,
+	SignIn,
+	HomeScreen,
+	FastTrackHome,
+	RoomList,
+	PoorConnectionPopup,
+	TournamentsList,
+	SwitchGameOnboardingPage,
+	SwitchGamePage,
+	UserAvatar,
+	Routing,
+	CommunityList,
+	FriendsCenter,
+	FriendsLeaderboard,
+	PrivateChatList,
+	RecentBombersList,
+	ChatTopBombers,
+	Leaderboard,
+	LeaderboardTop3,
+	Chat,
+	PrivateChat,
+	MiniProfile,
+	FullProfile,
+	ProfileSettings,
+	GiftBombCreation,
+	GiftBombClaimPopup,
+	NotificationCenter,
+	UserFeedList,
+	MiniGame,
+	MatchPrediction,
+	Shop,
+	OnlyForSubsPopup,
+	NotEnoughAcesPopup,
+	InGame,
+	GameLobby,
+	EndGamePopup,
+	WatchersList,
+	Settings,
+	GameReplay,
+	GameReplaysList,
+	TournamentView,
+	TournamentTeams,
+	TournamentTree,
+	MassTournamentView,
+	TVCreateGameInvite,
+	ClanLanding,
+	ClanDiscovery,
+	ClanBrowser,
+	ClanCreate,
+	ClanInfo,
+	ClanControlPanel,
+	ClanVault,
+	ClanFeed,
+	ClanLeaderboard,
+	ClanChat,
+	ClanLockedLevel
+}
+
+enum TrophySoundAlbumTrack {
+	Trophy_Received_LV1,
+	Trophy_Received_LV2,
+	Trophy_Received_LV3
+}
+
+enum TrophyTabSection {
+		Titles,
+		Achievements,
+		Trophies
+}
+
+enum TutorialType {
+	None,
+	Hokom,
+	Sun,
+	Catch,
+	AdvancedHokom,
+	AdvancedSun,
+	CatchSun,
+	CatchClosedDbl,
+	CatchHokomCut,
+	CatchHokomUp,
+	CatchHokomHKMCut,
+	CatchWrongSawa,
+	CatchWrongEkka
+}
+
+enum Type {
+			FirstCup,
+			SecondCup,
+			HalfCup,
+			Title
+}
+
+enum UserBoxDirection {
+		Bottom,
+		Right,
+		Top,
+		Left
+}
+
+enum UserFeedType {
+	CustomMessage,
+	ReceivedGift,
+	Liked,
+	AcquiredAchievement,
+	AcquiredTrophy,
+	UpgradedAchievement,
+	UserReportProcessed,
+	WonTournament,
+	WonMassEvent,
+	RankUp,
+	RankDown,
+	ForfeitGame,
+	PredictionResult,
+	PredictionWarning,
+	PredictionSeasonPrize,
+	MiniGamePrize,
+	BombClaimed,
+	FriendRequestAccepted,
+	Refund,
+	QualifiedForTournament,
+	UserReportReceived,
+	ProfileGiftReceived,
+	MassEventStageResult,
+	ViolationThreshold,
+	MonthlyStatsReport,
+	ClanArchived,
+	ClanJoinRequestReceived,
+	ClanInviteReceived,
+	ClanJoined
+}
+
+enum UserPermission {
+	AccessSwagger = 1,
+	RunServerCommands = 2,
+	ManageTournaments = 4,
+	ResetBeggarCurrency = 8,
+	AccessPrivateInfo = 16,
+	HaveChatColor = 32,
+	KickAndMutePlayers = 64,
+	EditPlayerInfo = 128,
+	ManageGameRooms = 256,
+	AccessHiddenTournaments = 512,
+	EnterLockedServers = 65536,
+	SeeBroadcasterView = 1024,
+	IgnoreGameInvites = 2048,
+	CreateTournamentsWithNoPrize = 4096,
+	CreateVisiblePrivateTournaments = 8192,
+	ForceFriend = 16384,
+	PinMessage = 32768,
+	ManageMassTournament = 131072
+}
+
+enum VaultSupportTier {
+	Tier1,
+	Tier2,
+	Tier3
+}
+
+enum WebOrdersProblems {
+	None,
+	Cards
+}
+

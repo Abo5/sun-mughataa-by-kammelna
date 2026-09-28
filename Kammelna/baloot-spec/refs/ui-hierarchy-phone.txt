@@ -1,0 +1,1037 @@
+# شجرة واجهة مشهد البلوت — phone
+# المصدر: scenes_scenes_03game_baloot_939a5f5c29f3c89808f44c2aa3dcb088.bundle
+# عدد الكائنات: 1032
+# الصيغة: الاسم  pos(x,y) size(w,h) anchor[minx,miny→maxx,maxy] [scale] {المكوّنات} [مخفي]
+
+- Ads Handler  {MenuAdsHandler}
+- AnimatedGiftController  {AnimatedItemController}
+- Baloot Game  {BalootGame}
+- Cameras
+  - Camera  {AudioListener, BlurOptimized, Camera, UniversalAdditionalCameraData}
+  - UI Camera  {Camera, UniversalAdditionalCameraData}
+  - EventSystem  {EventSystem, InputSystemUIInputModule}
+- Game Replay Manager  {GameReplayManager}
+- Game Room Theme  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  scale(0.000,0.000)  {AutoAssignMainCamera, Canvas, CanvasScaler, GraphicRaycaster, RoomThemeUi, SportTeamRoomTheme}
+  - Background  pos(0,0) size(1080,1920) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, SpriteToggler}
+    - Room Theme  pos(0,0) size(1080,1920) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+    - Userbox Dimming Background  pos(0,0) size(1080,1920) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Canvas, Image}
+  - Dissmisser  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {DismissibleBlocker}
+    - Blocker  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+- Game Ui Canvas  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  scale(0.000,0.000)  {AutoAssignMainCamera, Canvas, CanvasScaler, GraphicRaycaster}
+  - Game Ui Controls  pos(0,0) size(0,0) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {CardGameUiControls, GameComponentsLoader}
+  - Room Loading  pos(0,0) size(820,825) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.000,0.000)  {ElegantLoadingIndicator, Image}  [مخفي]
+    - Horizontal  pos(0,-34) size(498,126) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.750,0.750)  {HorizontalLayoutGroup}
+      - Suite Item # 1  pos(0,0) size(0,0) anchor[0.00,0.00→0.25,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+        - Spades_Border  pos(0,0) size(712,737) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+          - Spades  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Suite Item # 2  pos(0,0) size(0,0) anchor[0.25,0.00→0.50,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+        - Hearts_Border  pos(0,0) size(852,730) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+          - Hearts  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Suite Item # 3  pos(0,0) size(0,0) anchor[0.50,-0.00→0.75,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+        - Clubs_Border  pos(0,0) size(697,735) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+          - Club  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Suite Item # 4  pos(0,0) size(0,0) anchor[0.75,-0.00→1.00,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+        - Diamond_Border  pos(0,0) size(627,701) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+          - Diamond  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+    - Loadin wait  pos(0,-205) size(746,156) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+    - Loading Message  pos(0,50) size(746,86) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+  - Hints Popup  pos(0,0) size(846,1111) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {HintsPopup, PopupUI}
+    - Blocker  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  [مخفي]
+    - Content  pos(0,0) size(846,1112) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  [مخفي]
+      - Icon  pos(0,410) size(314,314) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Background  pos(0,-50) size(824,807) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+        - Title  pos(0,-61) size(509,80) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+        - Text Background  pos(0,-298) size(701,332) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+          - Description  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Button, HintText, TextMeshProUGUI}
+        - Bottom Section  pos(0,191) size(733,288) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {VerticalLayoutGroup}
+          - Elegant Loading Indicator  pos(367,-46) size(750,93) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  scale(0.700,0.700)  {ElegantLoadingIndicator, Image, LayoutElement}
+            - Horizontal  pos(0,0) size(176,0) anchor[0.14,0.16→0.86,0.82] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+              - Suite Item # 1  pos(0,0) size(0,0) anchor[0.00,0.00→0.25,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+                - Spades_Border  pos(0,0) size(712,737) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+                  - Spades  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+              - Suite Item # 2  pos(0,0) size(0,0) anchor[0.25,0.00→0.50,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+                - Hearts_Border  pos(0,0) size(852,730) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+                  - Hearts  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+              - Suite Item # 3  pos(0,0) size(0,0) anchor[0.50,-0.00→0.75,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+                - Clubs_Border  pos(0,0) size(697,735) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+                  - Club  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+              - Suite Item # 4  pos(0,0) size(0,0) anchor[0.75,-0.00→1.00,1.00] pivot(0.50,0.50)  {ElegantLoadingSuite}
+                - Diamond_Border  pos(0,0) size(627,701) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.100,0.100)  {Image}
+                  - Diamond  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+          - Wait Message   pos(367,-125) size(309,64) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {LayoutElement, TextMeshProUGUI}
+          - Button - Cancel  pos(367,-229) size(754,144) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Button, ClickSound, Image, LayoutElement}
+            - Text - Cancel  pos(0,0) size(0,-0) anchor[0.22,0.22→0.78,0.82] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+  - Lobby  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+  - Topbars  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.00,0.00)  {SlideAnimationHelper}
+    - Container  pos(0,0) size(1080,386) anchor[0.50,1.00→0.50,1.00] pivot(0.50,1.00)  {ScreenCutoutFixer}
+  - BottomBars  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+  - Gifts Controller  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.00,0.00)  {Canvas, GraphicRaycaster, RectMask2D}
+    - Container  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+      - BroadcastMessageBox  pos(23,-490) size(389,425) anchor[1.00,1.00→1.00,1.00] pivot(0.00,0.50)  {Image, ScreenCutoutFixer}
+        - Logo  pos(0,-82) size(320,100) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+        - Inner  pos(0,-57) size(-55,-163) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - TextMeshPro Text  pos(0,86) size(-30,-190) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+          - Gift  pos(167,-152) size(298,167) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Image}
+      - Gifts Container  pos(0,-1655) size(1080,769) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.00)  {GiftsController, ScreenCutoutFixer}
+        - Background  pos(0,0) size(0,0) anchor[0.00,-0.02→1.00,0.99] pivot(0.50,0.50)  {Image}
+        - Button - Close  pos(78,-69) size(156,89) anchor[0.44,1.00→0.68,1.00] pivot(0.50,0.50)  {Button, Image}
+          - Icon - Close  pos(-143,-43) size(60,46) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+        - Button - Send  pos(0,-72) size(-0,84) anchor[0.21,1.00→0.44,1.00] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+          - Text - Send  pos(-39,0) size(147,74) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Gifts Panel  pos(0,-541) size(1058,438) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+          - Gift List Mask  pos(0,5) size(-12,-10) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image, Mask}
+            - Gifts List View  pos(0,-3) size(12,-31) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {GiftsListView, Image, ListViewMouseScroller}
+        - Players Panel  pos(0,-218) size(1058,197) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+          - Top player  pos(924,103) size(160,190) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AvatarInitializer, CanvasGroup, Image, Toggle}
+            - Aspect fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+              - Avatar image holder  pos(0,0) size(0,0) anchor[0.00,0.20→1.00,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+                - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Text - Username  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.20] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+            - Image  pos(0,18) size(148,148) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Bottom player  pos(708,99) size(160,190) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AvatarInitializer, CanvasGroup, Image, Toggle}
+            - Aspect fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+              - Avatar image holder  pos(0,0) size(0,0) anchor[0.00,0.20→1.00,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+                - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Text - Username  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.20] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+            - Image  pos(0,18) size(148,148) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Right player  pos(359,99) size(160,190) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AvatarInitializer, CanvasGroup, Image, Toggle}
+            - Aspect fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+              - Avatar image holder  pos(0,0) size(0,0) anchor[0.00,0.20→1.00,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+                - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Text - Username  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.20] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+            - Image  pos(0,18) size(148,148) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Left player  pos(140,99) size(160,190) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AvatarInitializer, CanvasGroup, Image, Toggle}
+            - Aspect fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+              - Avatar image holder  pos(0,0) size(0,0) anchor[0.00,0.20→1.00,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+                - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Text - Username  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.20] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+            - Image  pos(0,18) size(148,148) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Button - Send to All  pos(530,112) size(155,169) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image}
+            - Text - Send To All  pos(0,-81) size(102,42) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Gift icon  pos(0,0) size(54,54) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+        - Coins  pos(-188,-73) size(328,82) anchor[1.00,1.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - Icon  pos(112,0) size(75,75) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Text - Coins  pos(-44,0) size(224,83) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+- Game scene common objects  {Comment}
+  - Rater Wins Counter  {RaterWinsCounter}
+  - Sound Manager  {AudioSource, GameSoundManager}
+  - Click Sound  {AudioSource}
+  - Leaving Room Popup  pos(0,0) size(1081,1920) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LeaveRoomPopup}
+  - Video and Voice chat manager  {VivoxManager}
+  - Play Time Counter  {PlayTimeCounter}
+  - LastMatchCacher  {LastMatchCacher}
+- KGame  {CardGameVisualControls}
+  - Play Area (scaler fixer)  {BindCanvasScale}
+    - Playground
+      - Eating Cards
+        - 1  {SpriteRenderer}
+        - 2  {SpriteRenderer}
+        - 3  {SpriteRenderer}
+        - 4  {SpriteRenderer}
+      - Playing Cards
+        - 1  {SpriteRenderer}
+        - 2  {SpriteRenderer}
+        - 3  {SpriteRenderer}
+        - 4  {SpriteRenderer}
+      - Eating Count Template  {SpriteRenderer}
+      - Bid Card  {FloorCard, SpriteRenderer}
+    - Userbox 2 - Right  pos(447,-64) size(287,447) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AutoAssignMainCamera, BalootUserbox, Canvas, GraphicRaycaster}
+      - Sound indicator Glow  pos(-1,106) size(200,200) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Info Container  pos(-0,-15) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+        - GiftsShowcase  pos(-4,191) size(212,123) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {GiftsShowcase, Image}
+          - Slot 2  pos(-60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+          - Slot 1  pos(60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(-1.000,1.000)  {Image}  [مخفي]
+        - Empy userbox fixer  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+          - vertical layout  pos(-9,-202) size(191,313) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {VerticalLayoutGroup}
+            - Layer 7 - projects  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Project 1  pos(-29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+              - Project 2  pos(29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 6 - sawa  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Sawa  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Sawa  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 5 - Kasho  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Kasho  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Kasho  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 4 - double  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Double  pos(0,59) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,22) size(179,113) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 3 - game mode  pos(0,0) size(198,47) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Bet  pos(0,57) size(179,77) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Suit  pos(23,25) size(32,32) anchor[0.10,0.25→0.10,0.25] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,0) size(-0,0) anchor[0.21,0.09→0.93,0.93] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 2 - showcase  pos(95,-53) size(198,75) anchor[0.00,1.00→0.00,1.00] pivot(0.50,1.00)  {Image, LayoutElement}  [مخفي]
+            - Layer 1 - dealer  pos(0,0) size(198,53) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Dealer  pos(0,75) size(212,94) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,5) size(0,9) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Image  pos(0,5) size(0,10) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Text - Dealer  pos(18,42) size(131,39) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Dealer icon  pos(-62,42) size(32,37) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Image}
+      - Userbox - Filled  pos(-24,62) size(171,171) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)
+        - InGame Badge  pos(19,120) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}
+              - AvatarShadow  pos(4,39) size(163,163) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.20)  {Image}
+              - OwnerBadge  pos(0,0) size(0,0) anchor[0.53,1.12→0.87,1.51] pivot(0.50,0.50)  scale(0.631,0.631)  {Image}
+            - Avatar image holder  pos(-0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.00)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Timer  pos(0,0) size(143,143) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}
+                - Text - Time  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+              - Highlight  pos(2,-0) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+              - Ring Mask  pos(2,1) size(230,234) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {RectMask2D}
+                - Sound indicator  pos(-2,2) size(-9,-8) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+              - Rotation Loading one gameobject  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.825,0.825)  {DOTweenAnimation, RotatingLoadingIndicator}  [مخفي]
+                - spade  pos(0,-35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - heart  pos(-35,0) size(45,37) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - club  pos(0,35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - diamond  pos(35,0) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+          - mute indicator  pos(0,3) size(81,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(1.148,1.148)  {Image}  [مخفي]
+        - SwipeWheel click area  pos(15,-11) size(222,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {EventTrigger, Image}
+        - SwipeWheel  pos(19,25) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {SwipeWheel}
+          - Layout  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.000,0.000)  {RadialLayout}
+            - Profile  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Gift  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(65,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Userbox - Empty  pos(-14,75) size(204,154) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)  [مخفي]
+        - InGame Badge AI  pos(7,106) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(-120,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Avatar image holder  pos(0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI, UsernameSetter}
+          - Highlight  pos(1,3) size(138,138) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - Timer  pos(-0,3) size(117,118) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}  [مخفي]
+            - Text - Time  pos(0,0) size(0,0) anchor[-1.88,-0.10→2.88,1.10] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Text - Entering  pos(8,-72) size(-21,-84) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}  [مخفي]
+        - Button - Sit Here  pos(8,-124) size(220,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}
+          - Text - Sit Here  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+      - Gift Button Holder  pos(0,0) size(287,448) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Canvas, Comment, GraphicRaycaster}  [مخفي]
+        - Button - Gift  pos(0,24) size(0,35) anchor[0.00,0.00→1.00,1.00] pivot(0.47,0.69)  {Button, Image}  [مخفي]
+          - Icon  pos(-8,91) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Chat Bubble  pos(-7,47) size(0,0) anchor[-1.02,0.54→0.30,1.01] pivot(1.00,0.00)  {ContentSizeFitter, LayoutElement, VerticalLayoutGroup}
+        - Layout  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(1.00,0.00)  {Image, LayoutElement, VerticalLayoutGroup}
+          - Text - Bubble  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Game Bubble  pos(-7,47) size(0,0) anchor[-0.40,0.54→0.30,0.85] pivot(1.00,0.00)  {Image}
+        - Text - Bubble  pos(-1,4) size(165,97) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Eating Count Point
+      - ProjectCards  pos(-21,155) size(447,92) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {CardsRevealer}  [مخفي]
+        - Holder1  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 1  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder2  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 2  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder3  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 3  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder4  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {SpriteRenderer}
+          - 4  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder5  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 5  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder6  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 6  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder7  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 7  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+      - Other Hand
+        - Holder 1
+          - 1  {SpriteRenderer}
+        - Holder 2
+          - 2  {SpriteRenderer}
+        - Holder 3
+          - 3  {SpriteRenderer}
+        - Holder 4
+          - 4  {SpriteRenderer}
+        - Holder 5
+          - 5  {SpriteRenderer}
+        - Holder 6
+          - 6  {SpriteRenderer}
+        - Holder 7
+          - 7  {SpriteRenderer}
+        - Holder 8
+          - 8  {SpriteRenderer}
+      - Emote  pos(0,109) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.871,0.871)  {EmoteViewer}
+        - EmoteViewer  pos(-5,-79) size(175,175) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {Image, SpriteSheetPlayer}  [مخفي]
+        - EmoteAudio  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {AudioSource}
+    - Userbox 3 - Top  pos(10,477) size(287,447) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AutoAssignMainCamera, BalootUserbox, Canvas, GraphicRaycaster}
+      - Sound indicator Glow  pos(-1,106) size(200,200) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Info Container  pos(-0,-15) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+        - GiftsShowcase  pos(-4,191) size(212,123) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {GiftsShowcase, Image}
+          - Slot 2  pos(-60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+          - Slot 1  pos(60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(-1.000,1.000)  {Image}  [مخفي]
+        - Empy userbox fixer  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+          - vertical layout  pos(-9,-202) size(191,313) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {VerticalLayoutGroup}
+            - Layer 7 - projects  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Project 1  pos(-29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+              - Project 2  pos(29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 6 - sawa  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Sawa  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Sawa  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 5 - Kasho  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Kasho  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Kasho  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 4 - double  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Double  pos(0,59) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,22) size(179,113) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 3 - game mode  pos(0,0) size(198,47) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Bet  pos(0,57) size(179,77) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Suit  pos(23,25) size(32,32) anchor[0.10,0.25→0.10,0.25] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,0) size(-0,0) anchor[0.21,0.09→0.93,0.93] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 2 - showcase  pos(95,-53) size(198,75) anchor[0.00,1.00→0.00,1.00] pivot(0.50,1.00)  {Image, LayoutElement}  [مخفي]
+            - Layer 1 - dealer  pos(0,0) size(198,53) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Dealer  pos(0,75) size(212,94) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,5) size(0,9) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Image  pos(0,5) size(0,10) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Text - Dealer  pos(18,42) size(131,39) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Dealer icon  pos(-62,42) size(32,37) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Image}
+      - Userbox - Filled  pos(-24,62) size(171,171) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)
+        - InGame Badge  pos(19,120) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}
+              - AvatarShadow  pos(4,39) size(163,163) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.20)  {Image}
+              - OwnerBadge  pos(0,0) size(0,0) anchor[0.53,1.12→0.87,1.51] pivot(0.50,0.50)  scale(0.631,0.631)  {Image}
+            - Avatar image holder  pos(-0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.00)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Timer  pos(0,0) size(143,143) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}
+                - Text - Time  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+              - Highlight  pos(2,-0) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+              - Ring Mask  pos(2,1) size(230,234) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {RectMask2D}
+                - Sound indicator  pos(-2,2) size(-9,-8) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+              - Rotation Loading one gameobject  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.825,0.825)  {DOTweenAnimation, RotatingLoadingIndicator}  [مخفي]
+                - spade  pos(0,-35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - heart  pos(-35,0) size(45,37) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - club  pos(0,35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - diamond  pos(35,0) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+          - mute indicator  pos(0,3) size(81,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(1.148,1.148)  {Image}  [مخفي]
+        - SwipeWheel click area  pos(15,-11) size(222,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {EventTrigger, Image}
+        - SwipeWheel  pos(19,25) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {SwipeWheel}
+          - Layout  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.000,0.000)  {RadialLayout}
+            - Profile  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Gift  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(65,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Userbox - Empty  pos(-14,75) size(204,154) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)  [مخفي]
+        - InGame Badge AI  pos(7,106) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(-120,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Avatar image holder  pos(0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI, UsernameSetter}
+          - Highlight  pos(1,3) size(138,138) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - Timer  pos(-0,3) size(117,118) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}  [مخفي]
+            - Text - Time  pos(0,0) size(0,0) anchor[-1.88,-0.10→2.88,1.10] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Text - Entering  pos(8,-72) size(-21,-84) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}  [مخفي]
+        - Button - Sit Here  pos(8,-124) size(220,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}
+          - Text - Sit Here  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+      - Gift Button Holder  pos(0,0) size(287,448) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Canvas, Comment, GraphicRaycaster}  [مخفي]
+        - Button - Gift  pos(0,24) size(0,35) anchor[0.00,0.00→1.00,1.00] pivot(0.47,0.69)  {Button, Image}  [مخفي]
+          - Icon  pos(-8,91) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Chat Bubble  pos(-7,47) size(0,0) anchor[-1.02,0.54→0.30,1.01] pivot(1.00,0.00)  {ContentSizeFitter, LayoutElement, VerticalLayoutGroup}
+        - Layout  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(1.00,0.00)  {Image, LayoutElement, VerticalLayoutGroup}
+          - Text - Bubble  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Game Bubble  pos(-7,47) size(0,0) anchor[-0.40,0.54→0.30,0.85] pivot(1.00,0.00)  {Image}
+        - Text - Bubble  pos(-1,4) size(165,97) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Eating Count Point
+      - ProjectCards  pos(-21,155) size(447,92) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {CardsRevealer}  [مخفي]
+        - Holder1  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 1  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder2  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 2  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder3  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 3  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder4  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {SpriteRenderer}
+          - 4  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder5  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 5  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder6  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 6  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder7  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 7  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+      - Other Hand
+        - Holder 1
+          - 1  {SpriteRenderer}
+        - Holder 2
+          - 2  {SpriteRenderer}
+        - Holder 3
+          - 3  {SpriteRenderer}
+        - Holder 4
+          - 4  {SpriteRenderer}
+        - Holder 5
+          - 5  {SpriteRenderer}
+        - Holder 6
+          - 6  {SpriteRenderer}
+        - Holder 7
+          - 7  {SpriteRenderer}
+        - Holder 8
+          - 8  {SpriteRenderer}
+      - Emote  pos(0,109) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.871,0.871)  {EmoteViewer}
+        - EmoteViewer  pos(-5,-79) size(175,175) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {Image, SpriteSheetPlayer}  [مخفي]
+        - EmoteAudio  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {AudioSource}
+    - Userbox 4 -  Left  pos(-425,-64) size(287,447) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AutoAssignMainCamera, BalootUserbox, Canvas, GraphicRaycaster}
+      - Sound indicator Glow  pos(-1,106) size(200,200) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Info Container  pos(-0,-15) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+        - GiftsShowcase  pos(-4,191) size(212,123) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {GiftsShowcase, Image}
+          - Slot 2  pos(-60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+          - Slot 1  pos(60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(-1.000,1.000)  {Image}  [مخفي]
+        - Empy userbox fixer  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+          - vertical layout  pos(-9,-202) size(191,313) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {VerticalLayoutGroup}
+            - Layer 7 - projects  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Project 1  pos(-29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+              - Project 2  pos(29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 6 - sawa  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Sawa  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Sawa  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 5 - Kasho  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Kasho  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Kasho  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 4 - double  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Double  pos(0,59) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,22) size(179,113) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 3 - game mode  pos(0,0) size(198,47) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Bet  pos(0,57) size(179,77) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Suit  pos(23,25) size(32,32) anchor[0.10,0.25→0.10,0.25] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,0) size(-0,0) anchor[0.21,0.09→0.93,0.93] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 2 - showcase  pos(95,-53) size(198,75) anchor[0.00,1.00→0.00,1.00] pivot(0.50,1.00)  {Image, LayoutElement}  [مخفي]
+            - Layer 1 - dealer  pos(0,0) size(198,53) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Dealer  pos(0,75) size(212,94) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,5) size(0,9) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Image  pos(0,5) size(0,10) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Text - Dealer  pos(18,42) size(131,39) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Dealer icon  pos(-62,42) size(32,37) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Image}
+      - Userbox - Filled  pos(-24,62) size(171,171) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)
+        - InGame Badge  pos(19,120) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}
+              - AvatarShadow  pos(4,39) size(163,163) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.20)  {Image}
+              - OwnerBadge  pos(0,0) size(0,0) anchor[0.53,1.12→0.87,1.51] pivot(0.50,0.50)  scale(0.631,0.631)  {Image}
+            - Avatar image holder  pos(-0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.00)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Timer  pos(0,0) size(143,143) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}
+                - Text - Time  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+              - Highlight  pos(2,-0) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+              - Ring Mask  pos(2,1) size(230,234) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {RectMask2D}
+                - Sound indicator  pos(-2,2) size(-9,-8) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+              - Rotation Loading one gameobject  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.825,0.825)  {DOTweenAnimation, RotatingLoadingIndicator}  [مخفي]
+                - spade  pos(0,-35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - heart  pos(-35,0) size(45,37) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - club  pos(0,35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - diamond  pos(35,0) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+          - mute indicator  pos(0,3) size(81,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(1.148,1.148)  {Image}  [مخفي]
+        - SwipeWheel click area  pos(15,-11) size(222,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {EventTrigger, Image}
+        - SwipeWheel  pos(19,25) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {SwipeWheel}
+          - Layout  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.000,0.000)  {RadialLayout}
+            - Profile  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Gift  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(65,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Userbox - Empty  pos(-14,75) size(204,154) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)  [مخفي]
+        - InGame Badge AI  pos(7,106) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(-120,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Avatar image holder  pos(0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI, UsernameSetter}
+          - Highlight  pos(1,3) size(138,138) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - Timer  pos(-0,3) size(117,118) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}  [مخفي]
+            - Text - Time  pos(0,0) size(0,0) anchor[-1.88,-0.10→2.88,1.10] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Text - Entering  pos(8,-72) size(-21,-84) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}  [مخفي]
+        - Button - Sit Here  pos(8,-124) size(220,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}
+          - Text - Sit Here  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+      - Gift Button Holder  pos(0,0) size(287,448) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Canvas, Comment, GraphicRaycaster}  [مخفي]
+        - Button - Gift  pos(0,24) size(0,35) anchor[0.00,0.00→1.00,1.00] pivot(0.47,0.69)  {Button, Image}  [مخفي]
+          - Icon  pos(-8,91) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Chat Bubble  pos(-7,47) size(0,0) anchor[-1.02,0.54→0.30,1.01] pivot(1.00,0.00)  {ContentSizeFitter, LayoutElement, VerticalLayoutGroup}
+        - Layout  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(1.00,0.00)  {Image, LayoutElement, VerticalLayoutGroup}
+          - Text - Bubble  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Game Bubble  pos(-7,47) size(0,0) anchor[-0.40,0.54→0.30,0.85] pivot(1.00,0.00)  {Image}
+        - Text - Bubble  pos(-1,4) size(165,97) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Eating Count Point
+      - ProjectCards  pos(-21,155) size(447,92) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {CardsRevealer}  [مخفي]
+        - Holder1  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 1  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder2  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 2  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder3  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 3  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder4  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {SpriteRenderer}
+          - 4  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder5  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 5  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder6  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 6  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder7  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 7  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+      - Other Hand
+        - Holder 1
+          - 1  {SpriteRenderer}
+        - Holder 2
+          - 2  {SpriteRenderer}
+        - Holder 3
+          - 3  {SpriteRenderer}
+        - Holder 4
+          - 4  {SpriteRenderer}
+        - Holder 5
+          - 5  {SpriteRenderer}
+        - Holder 6
+          - 6  {SpriteRenderer}
+        - Holder 7
+          - 7  {SpriteRenderer}
+        - Holder 8
+          - 8  {SpriteRenderer}
+      - Emote  pos(0,109) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.871,0.871)  {EmoteViewer}
+        - EmoteViewer  pos(-5,-79) size(175,175) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {Image, SpriteSheetPlayer}  [مخفي]
+        - EmoteAudio  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {AudioSource}
+  - Bottom Watcher Baloot  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  scale(0.000,0.000)  {AutoAssignMainCamera, Canvas, CanvasScaler, RenderTextureGraphicRaycaster, SlideAnimationHelper}
+    - Bottom bar  pos(0,0) size(1080,749) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.00)  {ScreenCutoutFixer}
+      - Content  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+        - Background  pos(0,-0) size(1080,-530) anchor[0.50,0.00→0.50,1.00] pivot(0.50,0.00)  {AlphaButton, Image}
+        - Userbox - Filled  pos(0,-749) size(6,202) anchor[0.00,1.00→1.00,1.00] pivot(0.50,0.00)
+          - Button - Chat  pos(440,98) size(187,187) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Button, Image, ObjectToggler}
+            - Icon  pos(0,26) size(82,76) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Text  pos(1,52) size(170,75) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Chat Bubble  pos(37,25) size(0,55) anchor[0.70,0.71→0.70,0.71] pivot(0.76,0.50)  {ContentSizeFitter, HorizontalLayoutGroup, Image}
+              - Text - Counter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {CounterBubbleText, TextMeshProUGUI}
+          - Button - Gift  pos(0,101) size(375,150) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Button, Image, ObjectToggler}
+            - background  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+            - layout  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+              - Text  pos(0,0) size(0,75) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+              - Icon  pos(0,0) size(0,60) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+    - Userbox - Baloot  pos(0,486) size(287,447) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {AutoAssignMainCamera, BalootUserbox, Canvas, GraphicRaycaster, ScreenCutoutFixer}
+      - Sound indicator Glow  pos(-1,106) size(200,200) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Info Container  pos(-0,-15) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+        - GiftsShowcase  pos(-4,191) size(212,123) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {GiftsShowcase, Image}
+          - Slot 2  pos(-60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+          - Slot 1  pos(60,-8) size(145,145) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(-1.000,1.000)  {Image}  [مخفي]
+        - Empy userbox fixer  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+          - vertical layout  pos(-9,-202) size(191,313) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {VerticalLayoutGroup}
+            - Layer 7 - projects  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Project 1  pos(-29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+              - Project 2  pos(29,52) size(84,72) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Text - Project 1  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 6 - sawa  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Sawa  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Sawa  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 5 - Kasho  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Kasho  pos(0,60) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,23) size(179,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Kasho  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Layer 4 - double  pos(0,0) size(198,40) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Double  pos(0,59) size(179,86) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,22) size(179,113) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,4) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 3 - game mode  pos(0,0) size(198,47) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Bet  pos(0,57) size(179,77) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)  {Image}
+                - Suit  pos(23,25) size(32,32) anchor[0.10,0.25→0.10,0.25] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,0) size(-0,0) anchor[0.21,0.09→0.93,0.93] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Layer 2 - showcase  pos(95,-53) size(198,75) anchor[0.00,1.00→0.00,1.00] pivot(0.50,1.00)  {Image, LayoutElement}  [مخفي]
+            - Layer 1 - dealer  pos(0,0) size(198,53) anchor[0.00,0.00→0.00,0.00] pivot(0.50,1.00)  {Image, LayoutElement}
+              - Dealer  pos(0,75) size(212,94) anchor[0.50,0.00→0.50,0.00] pivot(0.50,1.00)
+                - Image  pos(0,5) size(0,9) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Image  pos(0,5) size(0,10) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                - Text - Dealer  pos(18,42) size(131,39) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Dealer icon  pos(-62,42) size(32,37) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Image}
+      - Userbox - Filled  pos(-24,62) size(171,171) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)
+        - InGame Badge  pos(19,120) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}
+              - AvatarShadow  pos(4,39) size(163,163) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.20)  {Image}
+              - OwnerBadge  pos(0,0) size(0,0) anchor[0.53,1.12→0.87,1.51] pivot(0.50,0.50)  scale(0.631,0.631)  {Image}
+            - Avatar image holder  pos(-0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.00)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+              - Timer  pos(0,0) size(143,143) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}
+                - Text - Time  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+              - Highlight  pos(2,-0) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+              - Ring Mask  pos(2,1) size(230,234) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {RectMask2D}
+                - Sound indicator  pos(-2,2) size(-9,-8) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+              - Rotation Loading one gameobject  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.825,0.825)  {DOTweenAnimation, RotatingLoadingIndicator}  [مخفي]
+                - spade  pos(0,-35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - heart  pos(-35,0) size(45,37) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - club  pos(0,35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - diamond  pos(35,0) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {TextMeshProUGUI, UsernameSetter}
+          - mute indicator  pos(0,3) size(81,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(1.148,1.148)  {Image}  [مخفي]
+        - SwipeWheel click area  pos(15,-11) size(222,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {EventTrigger, Image}
+        - SwipeWheel  pos(19,25) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {SwipeWheel}
+          - Layout  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.000,0.000)  {RadialLayout}
+            - Profile  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Gift  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,-1.00)  {Image, SwipeWheelChoice}
+              - BG  pos(0,120) size(110,110) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, ForceTransform, Image}
+                - Icon  pos(0,0) size(65,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Userbox - Empty  pos(-14,75) size(204,154) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.880,0.880)  [مخفي]
+        - InGame Badge AI  pos(7,106) size(378,284) anchor[0.50,0.50→0.50,0.50] pivot(0.50,1.00)  {AvatarInitializer, Button}
+          - Aspect Ration Fitter  pos(0,0) size(-120,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {AspectRatioFitter}
+            - Rank Badge inGame  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,0.76] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Subranks  pos(0,0) size(0,0) anchor[0.31,0.40→0.69,0.44] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - sup1  pos(0,0) size(0,0) anchor[0.77,0.20→0.99,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup2  pos(0,0) size(0,0) anchor[0.52,0.20→0.74,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup3  pos(0,0) size(0,0) anchor[0.27,0.20→0.49,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+                - sup4  pos(0,0) size(0,0) anchor[0.02,0.20→0.24,0.79] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Avatar image holder  pos(0,0) size(0,0) anchor[0.23,0.47→0.80,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+              - AvatarPicture  pos(0,0) size(0,0) anchor[0.02,0.02→0.98,0.98] pivot(0.50,0.50)  {Image}
+            - Text - Username  pos(0,0) size(0,0) anchor[0.12,0.12→0.88,0.27] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI, UsernameSetter}
+          - Highlight  pos(1,3) size(138,138) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - Timer  pos(-0,3) size(117,118) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}  [مخفي]
+            - Text - Time  pos(0,0) size(0,0) anchor[-1.88,-0.10→2.88,1.10] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Text - Entering  pos(8,-72) size(-21,-84) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}  [مخفي]
+        - Button - Sit Here  pos(8,-124) size(220,65) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}
+          - Text - Sit Here  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+      - Gift Button Holder  pos(0,0) size(287,448) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Canvas, Comment, GraphicRaycaster}  [مخفي]
+        - Button - Gift  pos(0,24) size(0,35) anchor[0.00,0.00→1.00,1.00] pivot(0.47,0.69)  {Button, Image}  [مخفي]
+          - Icon  pos(-8,91) size(150,150) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+      - Chat Bubble  pos(-7,47) size(0,0) anchor[-1.02,0.54→0.30,1.01] pivot(1.00,0.00)  {ContentSizeFitter, LayoutElement, VerticalLayoutGroup}
+        - Layout  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(1.00,0.00)  {Image, LayoutElement, VerticalLayoutGroup}
+          - Text - Bubble  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Game Bubble  pos(-7,47) size(0,0) anchor[-0.40,0.54→0.30,0.85] pivot(1.00,0.00)  {Image}
+        - Text - Bubble  pos(-1,4) size(165,97) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Eating Count Point
+      - ProjectCards  pos(-21,155) size(447,92) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {CardsRevealer}  [مخفي]
+        - Holder1  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 1  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder2  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 2  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder3  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 3  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder4  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {SpriteRenderer}
+          - 4  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder5  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 5  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder6  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 6  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Holder7  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+          - 7  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+      - Other Hand
+        - Holder 1
+          - 1  {SpriteRenderer}
+        - Holder 2
+          - 2  {SpriteRenderer}
+        - Holder 3
+          - 3  {SpriteRenderer}
+        - Holder 4
+          - 4  {SpriteRenderer}
+        - Holder 5
+          - 5  {SpriteRenderer}
+        - Holder 6
+          - 6  {SpriteRenderer}
+        - Holder 7
+          - 7  {SpriteRenderer}
+        - Holder 8
+          - 8  {SpriteRenderer}
+      - Emote  pos(0,109) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.871,0.871)  {EmoteViewer}
+        - EmoteViewer  pos(-5,-79) size(175,175) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {Image, SpriteSheetPlayer}  [مخفي]
+        - EmoteAudio  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {AudioSource}
+  - Userbox 1 - player view  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  scale(0.000,0.000)  {AutoAssignMainCamera, Canvas, CanvasScaler, GraphicRaycaster, SlideAnimationHelper}
+    - Userbox  pos(0,0) size(1080,749) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.00)  {BalootUserbox, ScreenCutoutFixer}
+      - Content  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+        - firemode Coins display  pos(385,290) size(247,100) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {ScreenCutoutFixer, UiToggler}
+          - panel  pos(0,-100) size(247,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Aces text - No BG  pos(0,-2) size(-12,-19) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {AcesText, Button, ClickSound}
+              - Content  pos(0,0) size(-30,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+                - Icon  pos(-65,0) size(65,65) anchor[1.00,0.50→1.00,0.50] pivot(0.00,0.50)  {Image}
+                - Aces Counter - Balance  pos(-37,0) size(-74,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - GiftsShowcase  pos(0,266) size(350,128) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Canvas, GiftsShowcase, ScreenCutoutFixer}
+          - Slot 2  pos(-140,12) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+          - Slot 1  pos(140,12) size(250,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(-1.000,1.000)  {Image}  [مخفي]
+        - Cards Container  pos(0,211) size(0,1920) anchor[0.00,1.00→1.00,1.00] pivot(0.50,0.50)
+          - Eating Count
+          - Hand  {BoxCollider, Hand}
+            - Price Tag Holder
+              - Square  {SpriteRenderer}  [مخفي]
+                - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 1
+              - GameCard 1  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 2
+              - GameCard 2  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 3
+              - GameCard 3  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 4
+              - GameCard 4  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 5
+              - GameCard 5  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 6
+              - GameCard 6  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 7
+              - GameCard 7  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 8
+              - GameCard 8  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 9
+              - GameCard 9  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 10
+              - GameCard 10  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 11
+              - GameCard 11  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 12
+              - GameCard 12  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+            - Holder 13
+              - GameCard 13  {BoxCollider, GameCard, SpriteRenderer, UiToggler}
+                - back  {SpriteRenderer}
+                - FireMode  {SpriteRenderer}  [مخفي]
+                  - Square  {SpriteRenderer}
+                    - Text (TMP)  pos(0,0) size(2,1) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {MeshRenderer, TextMeshPro}
+          - Cards Revealer  pos(0,-460) size(447,92) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {CardsRevealer}  [مخفي]
+            - Holder1  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+              - 1  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+            - Holder2  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+              - 2  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+            - Holder3  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+              - 3  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+            - Holder4  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  {SpriteRenderer}
+              - 4  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+            - Holder5  pos(-1,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+              - 5  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+            - Holder6  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+              - 6  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+            - Holder7  pos(-2,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)
+              - 7  pos(0,0) size(170,250) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.00)  scale(27.000,27.000)  {SpriteRenderer}
+        - Background Objects  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)
+          - Dealer Parent  pos(0,0) size(0,1171) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.00)  {Canvas, ScreenCutoutFixer}
+            - Dealer  pos(-366,246) size(177,88) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Image}
+              - Text - Dealer  pos(-20,-28) size(97,35) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+              - Dealer Icon  pos(49,-28) size(32,37) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+            - Projects parent - keep enabled  pos(-369,-718) size(261,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+              - Project 1  pos(63,-40) size(127,81) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+                - Text - Project 1  pos(0,-21) size(110,35) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+              - Project 2  pos(199,-40) size(127,81) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+                - Text - Project 2  pos(0,-21) size(110,35) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Sawa  pos(-366,-718) size(154,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+              - Text - Sawa  pos(0,-20) size(148,41) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Kasho  pos(-366,-718) size(154,81) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+              - Text - Kasho  pos(0,-21) size(148,42) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Game State Message  pos(0,0) size(0,1171) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.00)  {Canvas, GameStateUI, GraphicRaycaster, ScreenCutoutFixer}
+            - Blocker  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Button, Image, ScreenCutoutFixer}
+            - Content  pos(0,740) size(1024,1024) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)
+              - Message Container  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {SlideAnimationHelper, VerticalLayoutGroup}
+                - Background  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image, LayoutElement, VerticalLayoutGroup}
+                  - Timer container  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {VerticalLayoutGroup}
+                    - Timer  pos(0,0) size(82,82) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image, Slider, Timer}
+                      - Fill base  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                      - Fill  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+                      - Text - Time  pos(0,0) size(2,2) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+                  - Text - Game State Message  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+          - Choose Project  pos(0,-732) size(0,211) anchor[0.00,1.00→1.00,1.00] pivot(0.50,1.00)  {Image, ProjectButtons}
+            - Button - Sira  pos(401,-103) size(282,155) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Button, Image}
+              - Text - Sira  pos(39,0) size(137,70) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Count  pos(-61,0) size(68,85) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Count  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Button - 50  pos(134,-104) size(282,155) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Button, Image}
+              - Text - 50  pos(39,0) size(137,70) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Count  pos(-61,0) size(68,85) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Count  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Button - 100  pos(-134,-104) size(282,155) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Button, Image}
+              - Text - 100  pos(39,0) size(137,70) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Count  pos(-61,0) size(68,85) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Count  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+            - Button - 400  pos(-401,-104) size(282,155) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Button, Image}
+              - Text - 400  pos(39,0) size(137,70) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Count  pos(-61,0) size(68,85) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Text - Count  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+          - Catching Panel  pos(0,-501) size(1080,860) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.00)  {CatchButtons, SlideAnimationHelper}
+            - Layout  pos(0,-860) size(1080,860) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  {HorizontalLayoutGroup}
+              - Container  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {LinearLayoutGroup}
+                - Background  pos(0,0) size(31,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image, LayoutElement}
+                - Button - Open Cards  pos(0,0) size(0,160) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image, LayoutElement}
+                  - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Button - Wrong Sawa  pos(0,0) size(0,160) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image, LayoutElement}
+                  - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Button - Wrong Ekka  pos(0,0) size(0,160) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image, LayoutElement}
+                  - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Kasho Button  pos(400,-732) size(-799,220) anchor[0.00,1.00→1.00,1.00] pivot(0.50,1.00)  {Image, KashoButton}
+            - Button - Kasho  pos(-139,-103) size(282,155) anchor[1.00,1.00→1.00,1.00] pivot(0.50,0.50)  {Button, Image}
+              - Text - Kasho  pos(0,0) size(204,94) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+        - Background  pos(0,-0) size(1080,-484) anchor[0.50,0.00→0.50,1.00] pivot(0.50,0.00)  {Image}
+          - Info mask  pos(-5,-62) size(10,75) anchor[0.03,1.00→0.97,1.00] pivot(0.50,0.50)  {RectMask2D}
+            - Bets Container  pos(-364,4) size(261,52) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+              - Bet  pos(0,0) size(0,52) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {HorizontalLayoutGroup, Image, LayoutElement}
+                - Suit  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+                - Text - Bet  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+              - Double  pos(0,0) size(0,52) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {HorizontalLayoutGroup, Image, LayoutElement}
+                - Text - Double  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI}
+        - Userbox - Empty  pos(0,-261) size(168,-579) anchor[0.50,0.00→0.50,1.00] pivot(0.50,0.50)  [مخفي]
+          - Inner  pos(0,5) size(204,84) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+          - Button - Sit Here  pos(0,-85) size(308,158) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Button, Image}
+            - Text - Sit Here  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Text - Entering  pos(0,-85) size(286,120) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+        - Userbox - Filled  pos(0,-749) size(6,245) anchor[0.00,1.00→1.00,1.00] pivot(0.50,0.00)
+          - Button - fire mode  pos(-117,-46) size(150,70) anchor[1.00,1.00→1.00,1.00] pivot(0.50,0.50)  {Button, FireModeManager, Image, ObjectToggler, UiToggler}
+            - Background  pos(-0,-1) size(23,23) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+              - Icon  pos(0,0) size(60,60) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Button - Gift  pos(-281,-46) size(150,70) anchor[1.00,1.00→1.00,1.00] pivot(0.50,0.50)  {Button, Image, ObjectToggler}
+            - Background  pos(0,-1) size(21,23) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+              - Icon  pos(0,2) size(58,59) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Button - Chat  pos(429,87) size(153,153) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {Button, Image, ObjectToggler}
+            - Icon  pos(0,26) size(57,60) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+            - Text  pos(-2,52) size(105,61) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+            - Chat Bubble  pos(35,15) size(0,55) anchor[0.70,0.71→0.70,0.71] pivot(0.76,0.50)  {ContentSizeFitter, HorizontalLayoutGroup, Image}
+              - Text - Counter  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {CounterBubbleText, TextMeshProUGUI}
+          - User / Game info  pos(-50,0) size(-676,69) anchor[0.00,1.00→1.00,1.00] pivot(0.50,1.00)  {AvatarInitializer, Button, Comment, Image}
+            - Rank Mini Zats  pos(-141,-2) size(72,52) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, RankUIModular}
+              - Zats  pos(0,0) size(0,0) anchor[0.09,0.14→0.92,0.32] pivot(0.50,0.50)
+                - Subrank 4  pos(0,0) size(0,0) anchor[0.05,-0.04→0.25,0.93] pivot(0.50,0.50)  {Image}
+                - Subrank 3  pos(0,0) size(0,0) anchor[0.28,-0.04→0.49,0.93] pivot(0.50,0.50)  {Image}
+                - Subrank 2  pos(0,0) size(0,0) anchor[0.51,-0.04→0.72,0.93] pivot(0.50,0.50)  {Image}
+                - Subrank 1  pos(0,0) size(0,0) anchor[0.75,-0.04→0.95,0.93] pivot(0.50,0.50)  {Image}
+            - Username - Base  pos(52,-5) size(296,80) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+              - Highlight  pos(0,0) size(0,0) anchor[-0.02,-0.08→1.02,1.09] pivot(0.50,1.00)  {Image}  [مخفي]
+              - Text - Username  pos(-42,-37) size(191,74) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {MeshFilter, TextMeshProUGUI, UsernameSetter}
+              - Mask  pos(-41,28) size(193,6) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image, Mask}  [مخفي]
+                - PlayerVoice indicator  pos(-0,0) size(5,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+            - OwnerBadge  pos(202,40) size(99,82) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.516,0.516)  {Image}
+            - Avatar Shadow  pos(157,-44) size(123,131) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.20)  {Image}
+            - Avatar image background  pos(158,-18) size(111,111) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.00)  scale(0.900,0.900)  {Image}
+              - Avatar image holder  pos(0,-1) size(1,1) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {AvatarImageSetter, Image}
+                - AvatarPicture  pos(0,1) size(-7,-7) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                  - Rotation Loading one gameobject  pos(0,0) size(100,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.700,0.700)  {DOTweenAnimation, RotatingLoadingIndicator}
+                    - spade  pos(0,-35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                    - heart  pos(-35,0) size(45,37) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                    - club  pos(0,35) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                    - diamond  pos(35,0) size(41,41) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+              - Timer  pos(0,2) size(113,113) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.978,0.978)  {Image, Slider, Timer}
+                - Text - Time  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+              - Highlight  pos(2,2) size(119,119) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.978,0.978)  {Image}
+                - Fill  pos(-2,-2) size(-3,-3) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+            - Mute indicator  pos(158,-41) size(58,58) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+            - Winning Streak base  pos(-82,24) size(98,78) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  scale(0.500,0.500)
+              - Winning Streak  pos(0,21) size(109,115) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+                - Zat  pos(0,16) size(98,136) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - Streak Count  pos(0,3) size(52,100) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {StreakText, TextMeshProUGUI}
+          - Playing Buttons  pos(0,-238) size(1081,151) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.00)  {BalootPlayingButtons, Image, Mask}
+            - Buttons Container  pos(0,0) size(0,0) anchor[0.02,0.02→0.83,1.00] pivot(0.00,0.50)  {HorizontalLayoutGroup, RectTransformToggler}
+              - Button - Catch  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image}
+                - Text - Catch  pos(0,0) size(0,0) anchor[0.11,0.25→0.89,0.75] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Button - Ekka  pos(329,-83) size(225,166) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Image, Toggle, UiToggler}  [مخفي]
+                - Text - Say Ikka  pos(-2,6) size(19,28) anchor[0.11,0.25→0.89,0.75] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Button - Automatic Ekka placeholder  pos(437,-83) size(182,166) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Image, Toggle}  [مخفي]
+                - Text - Automatic Ekka  pos(-2,6) size(19,28) anchor[0.11,0.25→0.89,0.75] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+              - Button - Projects  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image}
+                - Text - Projects  pos(0,0) size(0,0) anchor[0.06,0.18→0.94,0.82] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+                - Counter Base  pos(23,22) size(42,42) anchor[0.84,0.73→0.84,0.73] pivot(0.50,0.50)  {Image}
+                  - Text - Counter  pos(0,0) size(0,0) anchor[0.30,0.25→0.70,0.71] pivot(0.50,0.50)  {CounterBubbleText, TextMeshProUGUI}
+                  - Counter Inner Border  pos(0,0) size(0,0) anchor[-0.12,-0.12→1.12,1.12] pivot(0.50,0.50)  {Image}
+              - Button - Sawa  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image, UiToggler}
+                - Layout  pos(1,5) size(-32,-31) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {VerticalLayoutGroup}
+                  - Text - Sawa  pos(0,0) size(117,53) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+                  - Price  pos(133,-94) size(150,50) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {HorizontalLayoutGroup, Image}  [مخفي]
+                    - Text (TMP)  pos(55,-29) size(54,35) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+                    - Coins_icon  pos(102,-29) size(40,50) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {Image, LayoutElement}
+                - fire_logo  pos(102,39) size(34,45) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}  [مخفي]
+        - Foreground Objects  pos(0,-252) size(6,-505) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Canvas, GraphicRaycaster}
+          - Fast Track Replaced by AI blocker  pos(0,-244) size(1080,389) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {FastTrackIdleBlocker}
+            - Idle blocker  pos(0,-194) size(1080,389) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+              - solid background  pos(4,91) size(557,118) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+                - lit background  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {DOTweenAnimation, Image}
+                  - Text - replaced text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, MeshFilter, TextMeshProUGUI}
+        - Chat Bubble  pos(-46,-108) size(0,0) anchor[0.50,1.00→0.50,1.00] pivot(1.00,0.00)  {ContentSizeFitter, LayoutElement, VerticalLayoutGroup}
+          - Layout  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(1.00,-0.00)  {Image, LayoutElement, VerticalLayoutGroup}
+            - Text - Bubble  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Game Bubble  pos(-46,-108) size(202,138) anchor[0.50,1.00→0.50,1.00] pivot(1.00,0.00)  {Image}
+          - Text - Bubble  pos(-1,4) size(165,97) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Sawa Buttons  pos(-1,0) size(1080,750) anchor[0.50,1.00→0.50,1.00] pivot(0.50,1.00)  {SawaButtons, SlideAnimationHelper}
+          - Blocker  pos(0,1150) size(2200,2700) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {EventTrigger, Image}
+          - Layout  pos(0,0) size(1080,600) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.00)  {VerticalLayoutGroup}  [مخفي]
+            - Container  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {VerticalLayoutGroup}
+              - Background  pos(0,0) size(33,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image, LayoutElement}
+              - Description  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {HorizontalLayoutGroup, Image, LayoutElement}
+                - Text - Sawa description  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+              - Check Box  pos(1005,-276) size(70,50) anchor[0.00,1.00→0.00,1.00] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - Toggle Checkbox - black with Label  pos(0,0) size(988,92) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image, Toggle}
+                  - Checkbox area  pos(-46,0) size(92,92) anchor[1.00,0.50→1.00,0.50] pivot(0.50,0.50)
+                    - Background  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                    - Icon checked  pos(0,3) size(-10,-10) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                  - Label  pos(-46,0) size(-92,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+              - Buttons  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {HorizontalLayoutGroup}
+                - Button - Sawa Confirmation  pos(0,0) size(0,150) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image, LayoutElement}
+                  - Image  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                  - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+                - Button - Cancel  pos(0,0) size(0,150) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image, LayoutElement}
+                  - Image  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+                  - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+        - Bidding Baloot  pos(0,0) size(1080,564) anchor[0.50,1.00→0.50,1.00] pivot(0.50,2.60)  {BalootBiddingButtons, HorizontalLayoutGroup, Image}
+          - Button - Pass  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image}
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Wala  pos(401,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Sun  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image}
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - To Sun  pos(133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Before To Sun  pos(133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Triple  pos(133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Qahwa  pos(133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Hokom  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Button, Image}
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Hokom Closed  pos(-133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Hokom 2  pos(-133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Double  pos(-133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Four  pos(-133,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Ashkal  pos(-401,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Confirm Hokom  pos(-401,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Hokom Open  pos(-401,79) size(254,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Button - Hokom Clubs  pos(-74,78) size(102,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Icon  pos(0,0) size(46,51) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Button - Hokom Diamonds  pos(-201,78) size(102,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Icon  pos(-0,0) size(49,49) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Button - Hokom Spades  pos(-329,78) size(102,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Icon  pos(0,0) size(46,46) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+          - Button - Hokom Hearts  pos(-458,78) size(102,149) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Button, Image}  [مخفي]
+            - Icon  pos(0,0) size(52,46) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+        - Emote  pos(108,-585) size(100,100) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.00)  scale(0.900,0.900)  {EmoteViewer}
+          - EmoteViewer  pos(0,0) size(130,130) anchor[0.50,0.00→0.50,0.00] pivot(0.50,0.00)  {Image, SpriteSheetPlayer}  [مخفي]
+          - EmoteAudio  {AudioSource}
+- Layer 1 Canvas  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  scale(0.000,0.000)  {Canvas, CanvasScaler, GraphicRaycaster}
+- Popups Canvas  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.00,0.00)  scale(0.000,0.000)  {Canvas, CanvasScaler, GraphicRaycaster}
+  - Allow Teammate Ui  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.00,0.00)  {AllowTeammateUi}
+    - Container  pos(24,-485) size(910,436) anchor[1.00,1.00→1.00,1.00] pivot(0.00,0.50)  {ScreenCutoutFixer}
+      - Background  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+      - Deep  pos(-114,68) size(605,211) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {Image}
+        - Text - Player Name  pos(-194,51) size(340,86) anchor[1.00,0.00→1.00,0.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Text - Description  pos(0,-50) size(0,85) anchor[0.00,1.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+        - Rank Normal Zats  pos(112,-54) size(245,72) anchor[0.00,0.50→0.00,0.50] pivot(0.50,0.50)  scale(0.700,0.700)  {Image, RankUI}
+          - Zats  pos(0,0) size(0,0) anchor[0.03,0.12→0.54,0.88] pivot(0.50,0.50)
+            - Subrank 1  pos(0,0) size(0,0) anchor[0.69,0.17→0.97,0.82] pivot(0.50,0.50)  {Image}
+            - Subrank 2  pos(0,0) size(0,0) anchor[0.47,0.17→0.75,0.82] pivot(0.50,0.50)  {Image}
+            - Subrank 3  pos(0,0) size(0,-0) anchor[0.25,0.17→0.53,0.82] pivot(0.50,0.50)  {Image}
+            - Subrank 4  pos(0,0) size(0,0) anchor[0.04,0.17→0.32,0.82] pivot(0.50,0.50)  {Image}
+      - Button - Accept  pos(185,-121) size(311,140) anchor[0.00,0.50→0.00,0.50] pivot(0.50,0.50)  {Button, Image}
+        - Text  pos(-39,0) size(-111,0) anchor[-0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+        - Timer  pos(-70,6) size(71,71) anchor[1.00,0.50→1.00,0.50] pivot(0.50,0.50)  {Image, Slider, Timer}
+          - Fill  pos(0,0) size(0,0) anchor[0.00,0.00→0.00,0.00] pivot(0.50,0.50)  {Image}
+          - Text - Time  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {TextMeshProUGUI}
+      - Button - Refuse  pos(495,-121) size(310,140) anchor[0.00,0.50→0.00,0.50] pivot(0.50,0.50)  {Button, Image}
+        - Text  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+  - Back To Play Popup  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {BackToPlayPopup}
+    - Popup  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}  [مخفي]
+      - Content  pos(0,0) size(1009,745) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)
+        - Background  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+        - Button - OK  pos(0,0) size(0,0) anchor[0.21,0.11→0.79,0.35] pivot(0.50,0.50)  {Button, Image}
+          - Text  pos(51,0) size(-103,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+          - Timer  pos(0,0) size(0,0) anchor[0.08,0.28→0.22,0.72] pivot(0.50,0.50)  {Image, Slider, Timer}  [مخفي]
+            - Fill  pos(0,0) size(0,0) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {Image}
+            - Text - Time  pos(0,0) size(2,2) anchor[0.50,0.50→0.50,0.50] pivot(0.50,0.50)  {TextMeshProUGUI}
+        - Title  pos(0,-76) size(549,107) anchor[0.50,1.00→0.50,1.00] pivot(0.50,0.50)  {Image}
+          - Text - Title  pos(0,3) size(-77,-44) anchor[0.00,0.00→1.00,1.00] pivot(0.50,0.50)  {LocalizeTextMeshProUGUI, TextMeshProUGUI}
+        - Text - Body  pos(0,0) size(0,0) anchor[0.07,0.37→0.93,0.77] pivot(0.50,0.50)  {TextMeshProUGUI}
+- ScreenManager  {ScreenManager}

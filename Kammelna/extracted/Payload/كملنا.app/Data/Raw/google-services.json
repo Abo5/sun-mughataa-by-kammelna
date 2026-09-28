@@ -1,0 +1,102 @@
+{
+  "project_info": {
+    "project_number": "722155921306",
+    "firebase_url": "https://kammelna-b3ae7.firebaseio.com",
+    "project_id": "kammelna-b3ae7",
+    "storage_bucket": "kammelna-b3ae7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722155921306:android:7e529df52c85785d",
+        "android_client_info": {
+          "package_name": "com.remalit.kammelna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722155921306-fel40ok2dhges20rtmltji5rsv6j81r7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.remalit.kammelna",
+            "certificate_hash": "3aca552787873915917d2609d3186f50f6da7b4f"
+          }
+        },
+        {
+          "client_id": "722155921306-mh30djqqfgn3nei5i2u2huhdspr24nno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.remalit.kammelna",
+            "certificate_hash": "354ecfc4d4bd6898f5af8a8106d763a3af18e491"
+          }
+        },
+        {
+          "client_id": "722155921306-tuujuipin1hm0kugod0oq3hbdarsaagc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqOz4td-AE3HhzppwMYc6zofmgPH-m8bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112799484460493232914",
+              "client_type": 3
+            },
+            {
+              "client_id": "722155921306-ou1r5grnue4thqilbd5983g588gl09cl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.peakgames.kammelna",
+                "app_store_id": "537025426"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8290369869765011~6592558271"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722155921306:android:76cc73de57ce3937386423",
+        "android_client_info": {
+          "package_name": "com.remalit.kammelna.huawei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722155921306-tuujuipin1hm0kugod0oq3hbdarsaagc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqOz4td-AE3HhzppwMYc6zofmgPH-m8bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112799484460493232914",
+              "client_type": 3
+            },
+            {
+              "client_id": "722155921306-ou1r5grnue4thqilbd5983g588gl09cl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.peakgames.kammelna",
+                "app_store_id": "537025426"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

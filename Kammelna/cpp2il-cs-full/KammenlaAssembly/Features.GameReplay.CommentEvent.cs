@@ -1,0 +1,55 @@
+using Cpp2ILInjected;
+
+namespace Features.GameReplay;
+
+public class CommentEvent : ReplayEvent
+{
+	private string <Comment>k__BackingField;
+
+	private CommentDuration <CommentDuration>k__BackingField;
+
+	public string Comment
+	{
+		get
+		{
+			return <Comment>k__BackingField;
+		}
+		private set
+		{
+			//IL_0006: Unknown result type (might be due to invalid IL or missing references)
+			//IL_000b: Expected O, but got Unknown
+			object obj = this + 24;
+			obj = value;
+			Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC174C");
+		}
+	}
+
+	public CommentDuration CommentDuration
+	{
+		get
+		{
+			return <CommentDuration>k__BackingField;
+		}
+		private set
+		{
+			<CommentDuration>k__BackingField = value;
+		}
+	}
+
+	public CommentEvent()
+	{
+		Cpp2ILHelpers.NoteDecompilerIssue("Unmanaged memory load: [7253550]");
+		base.<PlayerIndex>k__BackingField = 0;
+	}
+
+	public CommentEvent(string comment, CommentDuration commentDuration)
+	{
+		//IL_000c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0011: Expected O, but got Unknown
+		object obj = this + 24;
+		obj = comment;
+		Cpp2ILHelpers.NoteDecompilerIssue("Unmanaged memory load: [7253550]");
+		_ = 0;
+		Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC174C");
+	}
+}

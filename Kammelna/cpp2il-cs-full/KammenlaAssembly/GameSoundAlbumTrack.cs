@@ -1,0 +1,27 @@
+public enum GameSoundAlbumTrack
+{
+	Win_Round = 0,
+	Win_Kaboot = 1,
+	Win_Game = 2,
+	Win_Tournament_LV1 = 3,
+	Win_Tournament_LV2 = 4,
+	Lose_Round = 5,
+	Lose_Kaboot = 6,
+	Lose_Game = 7,
+	Lose_Game_Happy = 8,
+	Stamp_LV1 = 9,
+	Stamp_LV2 = 10,
+	Stamp_LV3 = 11,
+	Stamp_LV4 = 12,
+	Rating_LV1 = 13,
+	Rating_LV2 = 14,
+	Rating_LV3 = 15,
+	Rating_LV4 = 16,
+	Bid_Qahwa = 20,
+	Rank_Up = 30,
+	Rank_Up_Soft = 31,
+	Rank_Down = 32,
+	Rank_Down_Soft = 33,
+	Sawa = 40,
+	YourTurn = 50
+}

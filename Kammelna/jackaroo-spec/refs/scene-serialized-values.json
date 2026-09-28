@@ -1,0 +1,1764 @@
+{
+ "scenes_scenes_03game_jackaroo_f3389d3f44a981af0fcf9cb4c43e466b.bundle": [
+  {
+   "class": "BurnOtherCardPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardDistributorSO",
+   "name": "JackarooDistributorConfig",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "JackarooDistributorConfig",
+    "<FirstDealDelay>k__BackingField": 0.10000000149011612,
+    "<CardFlightDuration>k__BackingField": 0.5,
+    "<CardFlightEase>k__BackingField": 12,
+    "<DelayBetweenCards>k__BackingField": 0.09000000357627869,
+    "<GroundCardsGoToPile>k__BackingField": 1
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "DealerPileSO",
+   "name": "JackarooDealerPileConfig",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "JackarooDealerPileConfig",
+    "_totalCardsPerPlayer": 13,
+    "<CardsPerBatch>k__BackingField": [
+     4,
+     4,
+     5
+    ],
+    "<PerspectiveFadeDuration>k__BackingField": 0.17000000178813934,
+    "<BatchFadeDuration>k__BackingField": 0.05000000074505806,
+    "<FadeInDuration>k__BackingField": 0.10000000149011612,
+    "<FadeInDurationMultiplier>k__BackingField": 3.0,
+    "<FadeInEase>k__BackingField": 12,
+    "<PunchDuration>k__BackingField": 0.20000000298023224,
+    "<PunchStrength>k__BackingField": 0.07000000029802322,
+    "<PunchVibrato>k__BackingField": 5,
+    "<PunchElasticity>k__BackingField": 5.0,
+    "<PunchEase>k__BackingField": 27
+   }
+  },
+  {
+   "class": "DealerPileVisuals",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooActionTipPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooAnimatedItemController",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooAnimatedRoomThemesController",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooBoardMono",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_plantReferenceMultiplier": 0.75,
+    "_localPositionY": 0.0,
+    "_localRotationX": 30.0,
+    "_verticalOffset": 43.0,
+    "_horizontalOffset": 43.0,
+    "_baseVerticalOffset": 43.0,
+    "_baseHorizontalOffset": 43.0,
+    "_graveyardVerticalOffset": 60.0,
+    "_graveyardHorizontalOffset": 60.0,
+    "_swapAtSameTime": 0,
+    "_volume": 0.30000001192092896,
+    "startPitch": 0.75,
+    "endPitch": 1.5,
+    "_blockedBaseFadeSpeed": 0.10000000149011612,
+    "_totalAnimationDuration": 2.0,
+    "_delayBetweenFireworks": 0.10000000149011612,
+    "_fireworksAudioDelay": 0.20000000298023224
+   }
+  },
+  {
+   "class": "JackarooCardDistributor",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooCardGameVisualControls",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "UserboxCardPlayIntroRotation": {
+     "m_Curve": [
+      {
+       "time": 0.002770066261291504,
+       "value": -0.031249940395355225,
+       "inSlope": 0.5769230127334595,
+       "outSlope": 0.5769230127334595,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.21395859122276306,
+       "value": 0.13509932160377502,
+       "inSlope": 0.975148618221283,
+       "outSlope": 0.975148618221283,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.36580583453178406,
+       "value": 0.5102255344390869,
+       "inSlope": 3.649225950241089,
+       "outSlope": 3.649225950241089,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.496501624584198,
+       "value": 0.8658394813537598,
+       "inSlope": 0.4160359501838684,
+       "outSlope": 0.4160359501838684,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 1.0,
+       "inSlope": 2.6530149170866935e-06,
+       "outSlope": 2.6530149170866935e-06,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "UserboxCardPlayIntroScale": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 0.0,
+       "inSlope": 0.058271147310733795,
+       "outSlope": 0.058271147310733795,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.14767685532569885,
+       "value": 0.6416161060333252,
+       "inSlope": 2.7391467094421387,
+       "outSlope": 2.7391467094421387,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.5,
+       "value": 1.024999976158142,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.6499999761581421,
+       "value": 0.9900000095367432,
+       "inSlope": -0.04649162292480469,
+       "outSlope": 0.06919476389884949,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "localCardMoveDuration": 0.20000000298023224,
+    "localCardMoveDelay": 0.0,
+    "localCardRotDuration": 0.25,
+    "localCardScaleDuration": 0.5,
+    "serverCardMoveDuration": 0.4000000059604645,
+    "serverCardMoveDelay": 0.20000000298023224,
+    "serverCardRotDuration": 0.6000000238418579,
+    "serverCardScaleDuration": 0.6000000238418579,
+    "localCardStartScale": {
+     "x": 1.600000023841858,
+     "y": 1.600000023841858,
+     "z": 1.600000023841858
+    },
+    "serverCardStartScale": {
+     "x": 0.6499999761581421,
+     "y": 0.6499999761581421,
+     "z": 0.6499999761581421
+    },
+    "cardSlotFlingY": 1860.0,
+    "cardLandingPositionOffset": 50.0,
+    "opponentCardSideRotationAnglePhone": 105.0,
+    "opponentCardSideRotationAngleTablet": 90.0,
+    "_playedCardReplayDelay": 0.5
+   }
+  },
+  {
+   "class": "JackarooFireModeManager",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooGame",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooGameUiControls",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooHand",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "maxCardsInBottomRow": 8,
+    "_checkRadius": 85.0,
+    "_yFireModeOffset": 50.0
+   }
+  },
+  {
+   "class": "JackarooOptionsPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooTheme",
+   "name": "JackarooTheme",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "JackarooTheme",
+    "<ThemeData>k__BackingField": {
+     "<Bottom>k__BackingField": {
+      "r": 0.8039215803146362,
+      "g": 0.20000000298023224,
+      "b": 0.1411764770746231,
+      "a": 1.0
+     },
+     "<Left>k__BackingField": {
+      "r": 0.0,
+      "g": 0.5882353186607361,
+      "b": 0.6470588445663452,
+      "a": 1.0
+     },
+     "<Top>k__BackingField": {
+      "r": 0.2823529541492462,
+      "g": 0.23137255012989044,
+      "b": 0.16078431904315948,
+      "a": 1.0
+     },
+     "<Right>k__BackingField": {
+      "r": 0.0,
+      "g": 0.6235294342041016,
+      "b": 0.18431372940540314,
+      "a": 1.0
+     },
+     "<ColorizeNodes>k__BackingField": 0,
+     "<NodeDefaultColor>k__BackingField": {
+      "r": 0.8588235378265381,
+      "g": 0.5843137502670288,
+      "b": 0.27450981736183167,
+      "a": 1.0
+     },
+     "<NodeSelectedColor>k__BackingField": {
+      "r": 0.5490196347236633,
+      "g": 0.27450981736183167,
+      "b": 0.0,
+      "a": 1.0
+     },
+     "<HighlightDefaultColor>k__BackingField": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+     },
+     "<HighlightLastNode>k__BackingField": 1
+    }
+   }
+  },
+  {
+   "class": "JackarooTurnIndicator",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_playerVector": {
+     "x": 125.0,
+     "y": 72.0
+    },
+    "_rotationDuration": 0.30000001192092896
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 3,
+    "_restingLocalScale": 0.8999999761581421,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 1,
+    "_restingLocalScale": 0.8999999761581421,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 0,
+    "_restingLocalScale": 1.0,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 2,
+    "_restingLocalScale": 0.800000011920929,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 1,
+    "direction": 0,
+    "_restingLocalScale": 1.0,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooZoomInPicker",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_centerPosition": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_perspectiveOffset": {
+     "x": 0.0,
+     "y": 100.0,
+     "z": 0.0
+    },
+    "_duration": 0.5,
+    "_offset": 3.0,
+    "_largeMarbleSize": {
+     "x": 77.0,
+     "y": 77.0
+    },
+    "_smallMarbleSize": {
+     "x": 32.0,
+     "y": 32.0
+    }
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayersPiles",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayersPiles",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  }
+ ],
+ "scenes_scenes_03tgame_jackaroo_ad8a5be69a19e9af9c089e210b8467eb.bundle": [
+  {
+   "class": "BurnOtherCardPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardDistributorSO",
+   "name": "JackarooDistributorConfig",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "JackarooDistributorConfig",
+    "<FirstDealDelay>k__BackingField": 0.10000000149011612,
+    "<CardFlightDuration>k__BackingField": 0.5,
+    "<CardFlightEase>k__BackingField": 12,
+    "<DelayBetweenCards>k__BackingField": 0.09000000357627869,
+    "<GroundCardsGoToPile>k__BackingField": 1
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "CardsRevealer",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "DealerPileSO",
+   "name": "JackarooDealerPileConfig",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "JackarooDealerPileConfig",
+    "_totalCardsPerPlayer": 13,
+    "<CardsPerBatch>k__BackingField": [
+     4,
+     4,
+     5
+    ],
+    "<PerspectiveFadeDuration>k__BackingField": 0.17000000178813934,
+    "<BatchFadeDuration>k__BackingField": 0.05000000074505806,
+    "<FadeInDuration>k__BackingField": 0.10000000149011612,
+    "<FadeInDurationMultiplier>k__BackingField": 3.0,
+    "<FadeInEase>k__BackingField": 12,
+    "<PunchDuration>k__BackingField": 0.20000000298023224,
+    "<PunchStrength>k__BackingField": 0.07000000029802322,
+    "<PunchVibrato>k__BackingField": 5,
+    "<PunchElasticity>k__BackingField": 5.0,
+    "<PunchEase>k__BackingField": 27
+   }
+  },
+  {
+   "class": "DealerPileVisuals",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "GameCard",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooActionTipPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooAnimatedItemController",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooAnimatedRoomThemesController",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooBoardMono",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_plantReferenceMultiplier": 0.75,
+    "_localPositionY": 0.0,
+    "_localRotationX": 30.0,
+    "_verticalOffset": 43.0,
+    "_horizontalOffset": 43.0,
+    "_baseVerticalOffset": 43.0,
+    "_baseHorizontalOffset": 43.0,
+    "_graveyardVerticalOffset": 60.0,
+    "_graveyardHorizontalOffset": 60.0,
+    "_swapAtSameTime": 0,
+    "_volume": 0.30000001192092896,
+    "startPitch": 0.75,
+    "endPitch": 1.5,
+    "_blockedBaseFadeSpeed": 0.10000000149011612,
+    "_totalAnimationDuration": 2.0,
+    "_delayBetweenFireworks": 0.10000000149011612,
+    "_fireworksAudioDelay": 0.20000000298023224
+   }
+  },
+  {
+   "class": "JackarooCardDistributor",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooCardGameVisualControls",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "UserboxCardPlayIntroRotation": {
+     "m_Curve": [
+      {
+       "time": 0.002770066261291504,
+       "value": -0.031249940395355225,
+       "inSlope": 0.5769230127334595,
+       "outSlope": 0.5769230127334595,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.21395859122276306,
+       "value": 0.13509932160377502,
+       "inSlope": 0.975148618221283,
+       "outSlope": 0.975148618221283,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.36580583453178406,
+       "value": 0.5102255344390869,
+       "inSlope": 3.649225950241089,
+       "outSlope": 3.649225950241089,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.496501624584198,
+       "value": 0.8658394813537598,
+       "inSlope": 0.4160359501838684,
+       "outSlope": 0.4160359501838684,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 1.0,
+       "inSlope": 2.6530149170866935e-06,
+       "outSlope": 2.6530149170866935e-06,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "UserboxCardPlayIntroScale": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 0.0,
+       "inSlope": 0.058271147310733795,
+       "outSlope": 0.058271147310733795,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.14767685532569885,
+       "value": 0.6416161060333252,
+       "inSlope": 2.7391467094421387,
+       "outSlope": 2.7391467094421387,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.5,
+       "value": 1.024999976158142,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.6499999761581421,
+       "value": 0.9900000095367432,
+       "inSlope": -0.04649162292480469,
+       "outSlope": 0.06919476389884949,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "localCardMoveDuration": 0.20000000298023224,
+    "localCardMoveDelay": 0.0,
+    "localCardRotDuration": 0.25,
+    "localCardScaleDuration": 0.5,
+    "serverCardMoveDuration": 0.4000000059604645,
+    "serverCardMoveDelay": 0.20000000298023224,
+    "serverCardRotDuration": 0.6000000238418579,
+    "serverCardScaleDuration": 0.6000000238418579,
+    "localCardStartScale": {
+     "x": 1.600000023841858,
+     "y": 1.600000023841858,
+     "z": 1.600000023841858
+    },
+    "serverCardStartScale": {
+     "x": 0.6499999761581421,
+     "y": 0.6499999761581421,
+     "z": 0.6499999761581421
+    },
+    "cardSlotFlingY": 1860.0,
+    "cardLandingPositionOffset": 50.0,
+    "opponentCardSideRotationAnglePhone": 105.0,
+    "opponentCardSideRotationAngleTablet": 90.0,
+    "_playedCardReplayDelay": 0.5
+   }
+  },
+  {
+   "class": "JackarooFireModeManager",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooGame",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooGameUiControls",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooHand",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "maxCardsInBottomRow": 8,
+    "_checkRadius": 85.0,
+    "_yFireModeOffset": 50.0
+   }
+  },
+  {
+   "class": "JackarooOptionsPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooScore",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooScore",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooTheme",
+   "name": "JackarooTheme",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "JackarooTheme",
+    "<ThemeData>k__BackingField": {
+     "<Bottom>k__BackingField": {
+      "r": 0.8039215803146362,
+      "g": 0.20000000298023224,
+      "b": 0.1411764770746231,
+      "a": 1.0
+     },
+     "<Left>k__BackingField": {
+      "r": 0.0,
+      "g": 0.5882353186607361,
+      "b": 0.6470588445663452,
+      "a": 1.0
+     },
+     "<Top>k__BackingField": {
+      "r": 0.2823529541492462,
+      "g": 0.23137255012989044,
+      "b": 0.16078431904315948,
+      "a": 1.0
+     },
+     "<Right>k__BackingField": {
+      "r": 0.0,
+      "g": 0.6235294342041016,
+      "b": 0.18431372940540314,
+      "a": 1.0
+     },
+     "<ColorizeNodes>k__BackingField": 0,
+     "<NodeDefaultColor>k__BackingField": {
+      "r": 0.8588235378265381,
+      "g": 0.5843137502670288,
+      "b": 0.27450981736183167,
+      "a": 1.0
+     },
+     "<NodeSelectedColor>k__BackingField": {
+      "r": 0.5490196347236633,
+      "g": 0.27450981736183167,
+      "b": 0.0,
+      "a": 1.0
+     },
+     "<HighlightDefaultColor>k__BackingField": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+     },
+     "<HighlightLastNode>k__BackingField": 1
+    }
+   }
+  },
+  {
+   "class": "JackarooTipPanel",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "JackarooTurnIndicator",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_playerVector": {
+     "x": 125.0,
+     "y": 72.0
+    },
+    "_rotationDuration": 0.30000001192092896
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 3,
+    "_restingLocalScale": 0.8999999761581421,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 2,
+    "_restingLocalScale": 0.800000011920929,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 0,
+    "_restingLocalScale": 1.0,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 0,
+    "direction": 1,
+    "_restingLocalScale": 0.8999999761581421,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooUserbox",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "isPlayerPrefab": 1,
+    "direction": 0,
+    "_restingLocalScale": 1.0,
+    "originalHandRootScale": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    }
+   }
+  },
+  {
+   "class": "JackarooZoomInPicker",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_centerPosition": {
+     "x": 0.0,
+     "y": 0.0,
+     "z": 0.0
+    },
+    "_perspectiveOffset": {
+     "x": 0.0,
+     "y": 100.0,
+     "z": 0.0
+    },
+    "_duration": 0.5,
+    "_offset": 3.0,
+    "_largeMarbleSize": {
+     "x": 77.0,
+     "y": 77.0
+    },
+    "_smallMarbleSize": {
+     "x": 32.0,
+     "y": 32.0
+    }
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayerPilesStacks",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayersPiles",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "PlayersPiles",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  },
+  {
+   "class": "ShowConfettiAnimation",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_shooterScaleEase": 28,
+    "_scaleDuration": 0.800000011920929,
+    "_delayStartEffect": 0.5,
+    "_delaySlotEffect": 0.0,
+    "_delayGlowEffect": 0.0,
+    "_delayBetweenGlowEffect": 0.5
+   }
+  }
+ ],
+ "duplicateassetisolation_assets_assets_prefabs_scenes_game_jackaroo_jackaroooption.prefab_f7e0dfbd97b7e0a38693626868312f59.bundle": [
+  {
+   "class": "JackarooActionOptionUi",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  }
+ ],
+ "duplicateassetisolation_assets_assets_prefabs_scenes_game_jackaroo_marble.prefab_3b7d64e4cdaa083c2fdf70a625ba86f1.bundle": [
+  {
+   "class": "JackarooMarbleMono",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": "",
+    "_jumpEndValue": 7.0,
+    "_jumpPower": 25.0,
+    "_numJumps": 1,
+    "_snapping": 0,
+    "_plantJumpPower": 50.0,
+    "_plantMoveCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 0.0,
+       "inSlope": 2.4188990592956543,
+       "outSlope": 2.4188990592956543,
+       "weightedMode": 0,
+       "inWeight": 0.0,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.4134112000465393,
+       "value": 1.0,
+       "inSlope": -0.10942939668893814,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.13595473766326904,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.0
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_plantJumpCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 0.0,
+       "inSlope": 3.7039453983306885,
+       "outSlope": 4.52539587020874,
+       "weightedMode": 3,
+       "inWeight": 0.35850027203559875,
+       "outWeight": 0.2027587741613388
+      },
+      {
+       "time": 0.4187847375869751,
+       "value": 0.5,
+       "inSlope": 0.23041969537734985,
+       "outSlope": 0.0,
+       "weightedMode": 3,
+       "inWeight": 0.5134956240653992,
+       "outWeight": 0.3191561996936798
+      },
+      {
+       "time": 0.5,
+       "value": 0.5,
+       "inSlope": 0.0,
+       "outSlope": -0.2115359604358673,
+       "weightedMode": 2,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.9733021259307861
+      },
+      {
+       "time": 0.5920619368553162,
+       "value": 1.0,
+       "inSlope": 0.06562311947345734,
+       "outSlope": 0.0,
+       "weightedMode": 1,
+       "inWeight": 1.0,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 1.0,
+       "value": 1.0,
+       "inSlope": 0.0,
+       "outSlope": 0.0,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.0
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "_moveSnapping": 0,
+    "_scaleVector": {
+     "x": 1.0,
+     "y": 1.0,
+     "z": 0.0
+    },
+    "_scalePower": 0.5,
+    "_vibrato": 0,
+    "_elasticity": 0.0,
+    "_defaultDuration": 0.699999988079071,
+    "_plantEffectTime": 1.0,
+    "burnEffectCurve": {
+     "m_Curve": [
+      {
+       "time": 0.0,
+       "value": 0.0,
+       "inSlope": 4.97191047668457,
+       "outSlope": 4.97191047668457,
+       "weightedMode": 0,
+       "inWeight": 0.0,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.06438270956277847,
+       "value": 0.32010507583618164,
+       "inSlope": 0.8342751264572144,
+       "outSlope": 0.8342751264572144,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.14924582839012146,
+       "value": 0.03977162390947342,
+       "inSlope": 4.2563276290893555,
+       "outSlope": 4.2563276290893555,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.03665941581130028
+      },
+      {
+       "time": 0.25070106983184814,
+       "value": 0.3223937153816223,
+       "inSlope": -0.01430001761764288,
+       "outSlope": -0.01430001761764288,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.3627907633781433,
+       "value": 0.026914238929748535,
+       "inSlope": -3.6640677452087402,
+       "outSlope": -3.6640677452087402,
+       "weightedMode": 0,
+       "inWeight": 0.28567034006118774,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.39280301332473755,
+       "value": 0.31826847791671753,
+       "inSlope": 0.6821357011795044,
+       "outSlope": 0.6821357011795044,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.3333333432674408
+      },
+      {
+       "time": 0.5174686908721924,
+       "value": 0.08319753408432007,
+       "inSlope": 4.638609409332275,
+       "outSlope": 4.638609409332275,
+       "weightedMode": 0,
+       "inWeight": 0.3333333432674408,
+       "outWeight": 0.03435218706727028
+      },
+      {
+       "time": 0.9978284239768982,
+       "value": 1.0,
+       "inSlope": 0.1126544177532196,
+       "outSlope": 0.1126544177532196,
+       "weightedMode": 0,
+       "inWeight": 0.2791401147842407,
+       "outWeight": 0.0
+      }
+     ],
+     "m_PreInfinity": 2,
+     "m_PostInfinity": 2,
+     "m_RotationOrder": 4
+    },
+    "burnEffectDuration": 1.25
+   }
+  }
+ ],
+ "duplicateassetisolation_assets_assets_prefabs_scenes_game_jackaroo_marblepickoption.prefab_643416f3a3bce71d9c3b5430ed539930.bundle": [
+  {
+   "class": "JackarooZoomInPickerOption",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "MarbleHighlight",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  }
+ ],
+ "duplicateassetisolation_assets_assets_prefabs_scenes_game_jackaroo_node.prefab_df4f52921eaf2ffaf2c2a666515a1836.bundle": [
+  {
+   "class": "JackarooNodeMono",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  },
+  {
+   "class": "MarbleHighlight",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  }
+ ],
+ "duplicateassetisolation_assets_assets_prefabs_scenes_game_jackaroo_whatsnew_jackaroowhatisnew.prefab_dc7519dd2c891cf32cc538c60778dd2c.bundle": [
+  {
+   "class": "JackarooWhatsNewPopupUI",
+   "name": "",
+   "values": {
+    "m_Enabled": 1,
+    "m_Name": ""
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"2640966000004322895",
+		"product_id":"736430079244799777",
+		"client_id":"549950986244862592",
+		"client_secret":"A6B090DCB655C3597E3A70740A3B4B841AA3BACAC52164C621EAC98FEE6FC24F",
+		"project_id":"736430079244799777",
+		"app_id":"103779259",
+		"api_key":"CgB6e3x9fhl9oyecOtg7vSVnXAUO7xY2nyW+a9wVO18tyILsJO1HYiiLBBThI1n3YCpGlIUaBanfLfFj1N4EBy5j",
+		"package_name":"com.remalit.kammelna.huawei"
+	},
+	"configuration_version":"1.0"
+}

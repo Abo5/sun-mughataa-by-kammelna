@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+**/__pycache__/
+*.pyc
+
+# Build artifacts of our custom C# tools
+/tooling/cecilcount/bin/
+/tooling/cecilcount/obj/
+/tooling/ildecomp/bin/
+/tooling/ildecomp/obj/
+
+# Downloaded reverse-engineering tools & build caches (not part of the deliverable)
+/.gocache/
+/.nuget/
+/.nuget2/
+/.tools/
+/.tools2/
+/ghidra.zip
+/jdk21.tar.gz
+/ghidra_project/
+/ghidra_home/
+/tools/
+/cpp2il-src/
+/il2cppdumper/
+/il2cppdumper-lxraa/
+/il2cppdumper-src/
+/mobrecon-go/

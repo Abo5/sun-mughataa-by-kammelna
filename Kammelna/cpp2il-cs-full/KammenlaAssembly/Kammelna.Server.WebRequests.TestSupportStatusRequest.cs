@@ -1,0 +1,68 @@
+using System.Runtime.Remoting.Messaging;
+using Cpp2ILInjected;
+using UnityEngine.Purchasing.Telemetry;
+
+namespace Kammelna.Server.WebRequests;
+
+public sealed class TestSupportStatusRequest : BaseWebRequest<TestSupportStatusModel>
+{
+	protected override HttpMethod Method => HttpMethod.GET;
+
+	public override string EndPoint
+	{
+		get
+		{
+			//IL_000f: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0014: Expected O, but got Unknown
+			//IL_0056: Unknown result type (might be due to invalid IL or missing references)
+			//IL_005b: Expected O, but got Unknown
+			//IL_0085: Expected O, but got I4
+			object obj = typeof(System.Runtime.Remoting.Messaging.CallContextSecurityData) + 2360;
+			object obj2 = "alignContent" + 1880;
+			object obj3 = obj;
+			Cpp2ILHelpers.NoteDecompilerIssue("Unmanaged memory load: [v42 @ X0_v2+E4]");
+			bool flag = (nint)0 == 0;
+			object obj4 = !flag;
+			if (obj4 == null)
+			{
+				Cpp2ILHelpers.NoteDecompilerIssue("Unknown call target operand: \"il2cpp_vm_object_is_inst\"");
+			}
+			string backendURL = Config.BackendURL;
+			return backendURL + (string)obj2;
+		}
+	}
+
+	public TestSupportStatusRequest(string testKey)
+	{
+		//IL_000c: Expected O, but got I
+		//IL_001b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0020: Expected O, but got Unknown
+		//IL_0090: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0095: Expected O, but got Unknown
+		//IL_00b6: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00bb: Expected O, but got Unknown
+		//IL_0037: Unknown result type (might be due to invalid IL or missing references)
+		//IL_003c: Expected O, but got Unknown
+		//IL_0059: Unknown result type (might be due to invalid IL or missing references)
+		//IL_005e: Expected O, but got Unknown
+		object obj = (nint)0 + (nint)120;
+		object obj2 = typeof(UnityEngine.Purchasing.Telemetry.TelemetryMetricsInstanceWrapper) + 144;
+		((BaseWebRequest<object>)(object)this)..ctor();
+		Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC1A7C");
+		object obj3 = typeof(System.Runtime.Remoting.Messaging.CallContextSecurityData) + 1496;
+		Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC1A7C");
+		object obj4 = default(object);
+		obj4..ctor();
+		object obj6 = default(object);
+		object obj5 = obj6 + 16;
+		obj5 = obj4;
+		Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC174C");
+		obj6..ctor();
+		object obj7 = obj6 + 24;
+		obj7 = testKey;
+		Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC174C");
+		object obj8 = this + 16;
+		obj8 = obj6;
+		Cpp2ILHelpers.NoteDecompilerIssue("Method not found @AC174C");
+	}
+}
