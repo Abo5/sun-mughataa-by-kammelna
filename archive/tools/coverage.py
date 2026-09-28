@@ -19,7 +19,8 @@
 """
 import re, io, json, os, sys, collections, gzip
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # archive/
+REPO = os.path.dirname(ROOT)                                          # repo root
 GAME_MAX_TDI = 4253   # آخر نوع في KammenlaAssembly؛ ما بعده mscorlib (Interop…)
                       # تحقّق: TDI 4253 = Util.Addressables.InitializationAction
 
@@ -29,7 +30,7 @@ def game_types():
     tdi = re.compile(r'// TypeDefIndex: (\d+)\s*$')
     decl = re.compile(r'\b(class|struct|interface|enum)\s+([^\s:<]+)')
     rows = []
-    with io.open(f'{ROOT}/il2cpp-dump/dump.cs', encoding='utf-8', errors='replace') as f:
+    with io.open(f'{REPO}/source-code/il2cpp-dump/dump.cs', encoding='utf-8', errors='replace') as f:
         for line in f:
             if line.startswith('// Namespace: '):
                 ns = line[len('// Namespace: '):].strip()
@@ -82,7 +83,7 @@ def norm(s):
 def measure():
     GAME, ntypes = game_types()
     doc  = documented_addresses()
-    d  = json.load(gzip.open(f'{ROOT}/il2cpp-dump/script.json.gz', 'rt', encoding='utf-8'))
+    d  = json.load(gzip.open(f'{REPO}/source-code/il2cpp-dump/script.json.gz', 'rt', encoding='utf-8'))
     sm = sorted(d['ScriptMethod'], key=lambda m: m['Address'])
     ad = [m['Address'] for m in sm]
     size = lambda i: (ad[i + 1] - ad[i]) if i + 1 < len(ad) else 0

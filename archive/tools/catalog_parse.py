@@ -1,6 +1,7 @@
 import struct, collections, os
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-P = os.path.join(ROOT, 'extracted/Payload/كملنا.app/Data/Raw/aa/catalog.bin')
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # archive/
+REPO = os.path.dirname(ROOT)                                          # repo root
+P = os.path.join(REPO, 'extracted/Payload/كملنا.app/Data/Raw/aa/catalog.bin')
 d=open(P,'rb').read(); N=len(d)
 def u(p): return struct.unpack_from('<I',d,p)[0] if 0<=p<=N-4 else None
 MASK=0x0FFFFFFF

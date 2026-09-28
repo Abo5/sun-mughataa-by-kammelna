@@ -15,7 +15,7 @@
 
 | رمز المرجع | المعنى | مثال |
 |---|---|---|
-| `[CS: <ملف>.cs]` | ملف C# مفكوك من `cpp2il-cs-full/KammenlaAssembly/` | `[CS: BalootCardUtils.cs]` |
+| `[CS: <ملف>.cs]` | ملف C# مفكوك من `source-code/cpp2il-cs-full/KammenlaAssembly/` | `[CS: BalootCardUtils.cs]` |
 | `[CS: <ملف>.cs → <دالة>]` | دالة محددة داخله | `[CS: KammelnaOffline.Baloot.BalootUtils.cs → PlayableCards]` |
 | `[BIN: 0x…]` | جدول ثابت مقروء مباشرة من ثنائي `UnityFramework` | `[BIN: 0x7253488]` |
 | `[UNITY: <Class>.<field>]` | قيمة مُسلسلة مقروءة من حزم Unity (typetree) | `[UNITY: CardGameVisualControls.localCardMoveDuration]` |
@@ -80,8 +80,8 @@
 | التجميعة | `KammenlaAssembly.dll` (4262 نوع) |
 | الشبكة | SmartFoxServer 2X |
 | الحركة | DOTween (Pro) |
-| مسار الكود المفكوك | `Kammelna/cpp2il-cs-full/KammenlaAssembly/` |
-| مسار الأصول | `Kammelna/extracted/Payload/كملنا.app/Data/` |
+| مسار الكود المفكوك | `source-code/cpp2il-cs-full/KammenlaAssembly/` |
+| مسار الأصول | `extracted/Payload/كملنا.app/Data/` |
 | الثنائي | `.../Frameworks/UnityFramework.framework/UnityFramework` (VA = file offset، `__TEXT` يبدأ من 0) |
 
 **الألعاب في التطبيق** — ثلاث فقط ✅ `[ENUM: Games]`:

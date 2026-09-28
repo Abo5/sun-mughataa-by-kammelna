@@ -1222,7 +1222,7 @@ public override int[] GetScores() => null;
 # ٠٨ — فهرس الكود
 
 
-**المسار**: `Kammelna/cpp2il-cs-full/KammenlaAssembly/<الملف>`
+**المسار**: `source-code/cpp2il-cs-full/KammenlaAssembly/<الملف>`
 
 ## أ. أصناف الطرنيب
 

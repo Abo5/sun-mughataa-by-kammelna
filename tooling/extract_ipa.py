@@ -3,7 +3,8 @@
 import zipfile, os, sys
 
 IPA = "/Users/qppn/Downloads/ipa-1h37p27m.ipa"
-DEST = "/Users/qppn/Desktop/صن مغطى/كملنا/extracted"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root
+DEST = os.path.join(REPO, "extracted")
 
 os.makedirs(DEST, exist_ok=True)
 

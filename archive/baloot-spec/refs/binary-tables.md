@@ -1,6 +1,6 @@
 # مراجع: الجداول الثابتة المقروءة من الثنائي
 
-**الملف**: `Kammelna/extracted/Payload/كملنا.app/Frameworks/UnityFramework.framework/UnityFramework`
+**الملف**: `extracted/Payload/كملنا.app/Frameworks/UnityFramework.framework/UnityFramework`
 **ملاحظة**: مقطع `__TEXT` يبدأ من `vmaddr = 0` و`fileoff = 0`، لذلك **العنوان الافتراضي = إزاحة الملف مباشرة**.
 
 ```

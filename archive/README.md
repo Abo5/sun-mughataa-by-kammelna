@@ -1,7 +1,10 @@
-# كملنا — استخراج الكود المصدري الكامل
+# كملنا — أرشيف التحليل والتعليمات
 
-هذا المجلد يحتوي على **كل شيء** تم استخراجه من ملف التطبيق `ipa-1h37p27m.ipa` بدون أي تشفير،
-بما في ذلك جميع الملفات الداخلية والكود المصدري المسترجع.
+هذا المجلد (`archive/`) يحتوي على **الأرشفة والتعليمات**: أرشيفات المواصفات الهندسية
+الموسومة بمصادرها، أدوات الأرشيف، والفهرس ودليل التنقّل.
+
+- **السورس كود المفكوك** (سورس كود كملنا) في مجلد معزول: [`../source-code/`](../source-code/)
+- **الملفات الخام المستخرجة** من التطبيق: [`../extracted/`](../extracted/)
 
 ---
 
@@ -217,7 +220,7 @@
 ### ⭐ أهم نتيجة: الكود المصدري الكامل للعبة
 
 ```
-Kammelna/cpp2il-cs-full/KammenlaAssembly/   ← ★ 4205 ملف C# (244MB) بأجسام الدوال الفعلية
+source-code/cpp2il-cs-full/KammenlaAssembly/   ← ★ 4205 ملف C# (244MB) بأجسام الدوال الفعلية
 ```
 
 هذا هو **الكود المصدري الحقيقي للعبة** — ليس مجرد أسماء كلاسات، بل منطق الدوال
@@ -227,37 +230,33 @@ Kammelna/cpp2il-cs-full/KammenlaAssembly/   ← ★ 4205 ملف C# (244MB) بأ�
 
 ---
 
-## بنية المجلد
+## بنية المستودع
 
 ```
-Kammelna/
-├── README.md                        ← هذا الملف
-├── cpp2il-cs-full/                  ← ★★ الكود المصدري الحقيقي للعبة (C# بأجسام الدوال)
-│   ├── KammenlaAssembly/            ← 4205 ملف .cs (244MB) — كود اللعبة كاملاً
-│   ├── Assembly-CSharp/             ← تجميعات اللعبة المساعدة
-│   ├── LibrariesAssembly/
-│   ├── PluginsAssembly/
-│   └── __Generated/
-├── cpp2il-output/                   ← 171 DLL مُعاد بناؤها بأجسام IL (من Cpp2IL)
-├── KammenlaAssembly-source.cs       ← كود اللعبة (بنية فقط، 4262 كلاس)
-├── extracted/                       ← كل الملفات الداخلية للتطبيق (1018 ملف، بدون تشفير)
-│   └── Payload/كملنا.app/           ← (Info.plist, الأصول, Frameworks, Data, metadata...)
-├── mobrecon-output/                 ← مخرجات أداة mobrecon-go
-│   ├── report.md / report.json      ← تقرير التحليل الكامل
-│   ├── apis.txt                     ← كل الروابط والـ APIs (219)
-│   ├── endpoints.csv                ← جدول النقاط النهائية
-│   ├── secrets.txt                  ← المفاتيح والأسرار المكتشفة (90)
-│   └── work/                        ← strings.txt (كل النصوص الخام المستخرجة من الثنائيات)
-└── il2cpp-dump/                     ← مخرجات Il2CppDumper الكاملة
-    ├── dump.cs                      ← كل الكلاسات/الدوال/الحقول (51MB, 1.5 مليون سطر)
-    ├── script.json.gz               ← البيانات الخام (مضغوط 11MB · الأصل 142MB)
-    ├── il2cpp.h.gz                  ← هياكل C++ (مضغوط 4MB · الأصل 131MB)
-    └── DummyDll/                    ← 171 تجميعة DLL مُعاد بناؤها
+sun-mughataa-by-kammelna/               ← جذر المستودع
+├── README.md                           ← نظرة عامة على المستودع
+├── archive/                            ← ★ الأرشفة + التعليمات (هذا المجلد)
+│   ├── README.md                       ← هذا الملف — دليل الأرشيف الكامل
+│   ├── tools/                          ← أدوات الأرشيف (build_index · coverage · catalog_parse · asset_refs)
+│   ├── mobrecon-output/                ← مخرجات mobrecon-go (report · apis · secrets · endpoints · strings)
+│   ├── INDEX-العناوين.md               ← الفهرس العالمي (٤٤٥٦ عنوانًا)
+│   ├── المفتوح-المتبقّي.md              ← سجلّ البنود المفتوحة (١٥١ بندًا)
+│   ├── gidx.json                       ← خريطة العنوان → الملف الموثّق
+│   └── *-spec/                         ← أرشيفات المواصفات الهندسية (بلوت · طرنيب · جكارو · …)
+├── source-code/                        ← ★ سورس كود كملنا (معزول)
+│   ├── cpp2il-cs-full/                 ← الكود المصدري الحقيقي للعبة (C# بأجسام الدوال)
+│   │   └── KammenlaAssembly/           ← 4205 ملف .cs (244MB) — كود اللعبة كاملًا
+│   ├── KammenlaAssembly-source.cs      ← كود اللعبة (بنية فقط، 4262 كلاس)
+│   ├── il2cpp-dump/                    ← مخرجات Il2CppDumper (dump.cs · script.json.gz · il2cpp.h.gz · DummyDll/)
+│   └── cpp2il-output/                  ← 171 DLL مُعاد بناؤها بأجسام IL (من Cpp2IL)
+├── extracted/                          ← كل الملفات الداخلية للتطبيق (1018 ملف، بدون تشفير)
+│   └── Payload/كملنا.app/              ← (Info.plist · الأصول · Frameworks · Data · metadata)
+└── tooling/                            ← أدوات الاستخراج المخصصة (سكربتات Ghidra · cecilcount · ildecomp · extract_ipa)
 ```
 
 > 📦 **الملفات المضغوطة (gzip)**: لكي لا يتجاوز المستودع حدّ GitHub (100MB للملف الواحد)،
-> ضُغطت ثلاثة ملفات كبيرة بصيغة gzip. لفكّها: `gunzip il2cpp-dump/script.json.gz` و
-> `gunzip il2cpp-dump/il2cpp.h.gz` و
+> ضُغطت ثلاثة ملفات كبيرة بصيغة gzip. لفكّها: `gunzip source-code/il2cpp-dump/script.json.gz` و
+> `gunzip source-code/il2cpp-dump/il2cpp.h.gz` و
 > `gunzip "extracted/Payload/كملنا.app/Frameworks/UnityFramework.framework/UnityFramework.gz"`.
 > أدوات الأرشيف (`tools/coverage.py` و `tools/build_index.py`) تقرأ `script.json.gz` تلقائيًا.
 
@@ -306,7 +305,7 @@ GameAnalytics, SmartFox2X (خادم تعدد اللاعبين), HuaweiMobileServ
 كود أصلي (native machine code) وقت التجميع. لذلك:
 
 - ✅ **تم استرجاعه بالكامل**: أسماء الكلاسات والدوال والحقول والخواص والتعدادات
-  والـ attributes وكل النصوص (strings) والروابط والمفاتيح — وهذا ما في `dump.cs` و `KammenlaAssembly-source.cs`.
+  والـ attributes وكل النصوص (strings) والروابط والمفاتيح — وهذا ما في `dump.cs` و `source-code/KammenlaAssembly-source.cs`.
 - ⚠️ **لا يمكن استرجاعه**: أجسام الدوال الأصلية (method bodies) لأنها تحولت إلى
   تعليمات ARM أصلية. لاسترجاع منطق الدوال بدقة يلزم تفكيك (decompile) الكود الأصلي
   بأدوات مثل Ghidra/IDA على ملف `UnityFramework`.

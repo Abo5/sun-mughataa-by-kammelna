@@ -1,6 +1,7 @@
 import os, re, json, bisect, io, collections, gzip
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-d=json.load(gzip.open(f"{ROOT}/il2cpp-dump/script.json.gz", 'rt', encoding='utf-8'))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # archive/
+REPO = os.path.dirname(ROOT)                                          # repo root
+d=json.load(gzip.open(f"{REPO}/source-code/il2cpp-dump/script.json.gz", 'rt', encoding='utf-8'))
 sm=sorted(d['ScriptMethod'], key=lambda m:m['Address'])
 addrs=[m['Address'] for m in sm]
 exact={m['Address']:m['Name'] for m in sm}
@@ -44,7 +45,7 @@ per=collections.Counter()
 for a,nm,k,locs in rows:
     for s,_ in locs: per[s]+=1
 print("per archive:", dict(per))
-json.dump([(a,nm,k,locs) for a,nm,k,locs in rows], open("gidx.json","w"), ensure_ascii=False)
+json.dump([(a,nm,k,locs) for a,nm,k,locs in rows], open(f"{ROOT}/gidx.json","w"), ensure_ascii=False)
 
 # ---------------------------------------------------------- write INDEX file
 NAMES = {'baloot-spec':'بلوت','jackaroo-spec':'جكارو','tarneeb-spec':'طرنيب','lobby-spec':'ردهة',
